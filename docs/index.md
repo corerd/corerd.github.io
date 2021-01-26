@@ -2,10 +2,5 @@
 # JEKYLL front matter
 # https://jekyllrb.com/
 
-layout: default
-title: Home
+layout: dark-portfolio
 ---
-
-Corerd
-======
-Under construction
