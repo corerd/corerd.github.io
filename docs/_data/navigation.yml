@@ -5,10 +5,10 @@
   link: /
   icon: fa-home
 - name: SKILLS
-  link: "#skills"
+  link: /skills.html
   icon: fa-cubes
 - name: HISTORY
-  link: "#history"
+  link: /history.html
   icon: fa-briefcase
 - name: CONTACT
   link: "#contact"
