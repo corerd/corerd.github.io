@@ -1,0 +1,15 @@
+# YAML file
+# Add a double quote to the key value string to escape the hash # character
+
+- name: HOME
+  link: /
+  icon: fa-home
+- name: SKILLS
+  link: "#skills"
+  icon: fa-cubes
+- name: HISTORY
+  link: "#history"
+  icon: fa-briefcase
+- name: CONTACT
+  link: "#contact"
+  icon: fa-envelope
