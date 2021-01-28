@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Dark Portfolio Template</title>
+<title>{{ page.site-name }} | {{ page.title }}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -18,63 +18,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
 <body class="w3-text-theme">
-
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-theme-l1 w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <div class="w3-padding-large w3-wide w3-theme">
-    <p>Corerd</p>
-  </div>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d5">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large">
-    <i class="fa fa-cubes w3-xxlarge"></i>
-    <p>SKILLS</p>
-  </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large">
-    <i class="fa fa-briefcase w3-xxlarge"></i>
-    <p>HISTORY</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-theme w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <div class="w3-bar-item w3-wide" style="width:20% !important">Corerd</div>
-    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:20% !important">SKILLS</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:20% !important">HISTORY</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">CONTACT</a>
-  </div>
-</div>
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-large w3-center" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Corrado</h1>
-    <p>Software Engineer</p>
-  </header>
-
-  
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64">
-    <p>
-      (C) 2021 Corerd
-      <a href="#privacy" target="_blank" class="w3-hover-text-blue">Privacy</a>
-      <a href="#credits" target="_blank" class="w3-hover-text-blue">Credits</a>
-    </p>
-  <!-- End footer -->
-  </footer>
-
-<!-- END PAGE CONTENT -->
-</div>
-
+  {% include navigation.html %}
+  {{ content }}
+  {% include footer.html %}
 </body>
 </html>
