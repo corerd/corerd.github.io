@@ -10,6 +10,49 @@ title: Skills
   <h2>Skills</h2>
 </div>
 
-<div class="w3-container">
-    <p class="w3-theme-l4 w3-wide w3-center">UNDER CONSTRUCTION</p>
+<div class="w3-container w3-padding-24">
+  <table class="w3-table w3-striped w3-bordered">
+    <thead>
+      <tr class="w3-wide w3-theme-l5">
+        <th>Main</th>
+      </tr>  
+    </thead>
+    {% for item in site.data.skills-main %}
+      <tr>
+        <td>{{ item.skill }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<div class="w3-container w3-padding-24">
+  <table class="w3-table w3-striped w3-bordered">
+    <thead>
+      <tr class="w3-wide w3-theme-l5">
+        <th>Application Fields</th>
+      </tr>  
+    </thead>
+    {% for item in site.data.skills-fields %}
+      <tr>
+        <td>{{ item.field }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+
+<div class="w3-container w3-padding-24">
+  <table class="w3-table w3-striped w3-bordered">
+    <thead>
+      <tr class="w3-wide w3-theme-l5">
+        <th>Programming</th>
+        <th></th>
+      </tr>  
+    </thead>
+    {% for item in site.data.skills-dev %}
+      <tr>
+        <td>{{ item.skill }}</td>
+        <td>{{ item.desc }}</td>
+      </tr>
+    {% endfor %}
+  </table>
 </div>

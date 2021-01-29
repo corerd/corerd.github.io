@@ -1,0 +1,47 @@
+- skill: Languages
+  desc: >-
+    C/C++, C#, HTML+CSS, Java, JavaScript, Objective-C, Pascal, PHP, PowerShell,
+    Python, SQL, Visual Basic, Unix shell, XAML.
+- skill: Assembler
+  desc: Intel 8051/251, Intel x86, Microchip, M68K, STM8, STM32, Z80.
+- skill: Operating Systems
+  desc: Android, iOS, macOS, Linux, Windows, uClinux, uC/OS-II, VxWorks.
+- skill: Middleware
+  desc: AJAX, Cocoa, LAMP, jQuery, .NET, OpenCV.
+- skill: Graphical User Interfaces 
+  desc: >-
+    Android GUI, macOS Aqua, Bootstrap, iOS UI, Microsoft Foundation Class (MFC),
+    Qt, Windows Form, Windows Presentation Foundation (WPF), wxWidgets.
+- skill: DBMS
+  desc: Informix,, MySQL.
+- skill: Web server
+  desc: Apache.
+- skill: CMS
+  desc: WordPress.
+- skill: Network Management
+  desc: >-
+    Administration tools provided by Android, iOS, Mac OS X, Linux and Windows
+    operating systems.
+- skill: Communication protocols
+  desc: Bluetooth, DLNA, GSM/GPRS/UMTS, Hdlc, ISO/IEC 7816, Tcp/Ip, UPnP, Wi-Fi.
+- skill: Bus
+  desc: AVS, BTicino SCS, CAN, I2C, ISA, PMBus, RS232/422/485, SPI, USB.
+- skill: Development Environments
+  desc: >-
+    IAndroid Studio, Code::Blocks,CodeLite, CodeWarrior, Eclipse, Mplab,
+    NetBeans, Tornado Wind River, Visual Studio, Xcode.
+- skill: Bug tracking
+  desc: MantisBT.
+- skill: Version Control Systems
+  desc: GIT, Mercurial, SVN.
+- skill: Processors
+  desc: >-
+    Arm, Freescale ColdFire, Intel x86, 8051 derivatives, Maxim crypto processors,
+    STM8, STM32, Z80.
+- skill: Microcontrollers
+  desc: Freescale HCS08, Microchip, Renesas R8C, TDK 73S11xxF.
+- skill: Electronic Test Instruments
+  desc: >-
+    In-circuit emulator, oscilloscope, logic analyzer, protocol analyzer,
+    spectrum analyzer.
+
