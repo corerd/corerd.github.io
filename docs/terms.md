@@ -7,7 +7,7 @@ layout: resume
 title: Terms
 synopsis: Terms and Conditions
 ---
-Last updated: January 28, 2021
+Last updated: February 02, 2021
 
 This is My personal self managed Website.
 
@@ -43,8 +43,7 @@ For the purposes of these Terms and Conditions:
 - **Webmaster** (referred to as either "the Webmaster", "I", "Me" or "My"
   in this agreement) refers to Corrado Ubezio.
 
-- **Website** refers to Corerd, accessible from
-  [https://corerd.github.io](https://corerd.github.io)
+- **Website** refers to Corerd, accessible from <https://corerd.github.io>
 
 - **You** means the individual accessing or using the Service, or the company,
   or other legal entity on behalf of which such individual is accessing or
@@ -55,6 +54,10 @@ For the purposes of these Terms and Conditions:
 These are the Terms and Conditions governing the use of this Service and the
 agreement that operates between You and Me. These Terms and Conditions set out
 the rights and obligations of all users regarding the use of the Service.
+
+This Service is hosted by [GitHub Pages](https://pages.github.com/)
+in a subdomain of `github.io`.
+These Terms govern only its third level domain `https://corerd.github.io`.
 
 Your access to and use of the Service is conditioned on Your acceptance of and
 compliance with these Terms and Conditions. These Terms and Conditions apply to
@@ -167,4 +170,4 @@ in whole or in part, please stop using the website and the Service.
 If you have any questions about these Terms and Conditions, You can contact Me
 in English and Italian:
 
-- By email: [corerd@live.com](mailto:corerd@live.com)
+- By email: <corerd@live.com>
