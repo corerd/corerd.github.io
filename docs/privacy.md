@@ -36,6 +36,9 @@ For the purposes of this Privacy Policy:
 - **Device** means any device that can access the Service such as a computer,
   a cellphone or a digital tablet.
 
+- **Email Service Provider** refers to
+  [Microsoft Outlook](https://www.microsoft.com/en-us/microsoft-365/outlook).
+
 - **Personal Data** means any information relating to an identified or
   identifiable natural person. An identifiable natural person is one who
   can be identified, directly or indirectly, in particular by reference
@@ -95,19 +98,52 @@ transmits the following information:
   not found").
 
 While these information are nowise collected by Me, they can be stored
-in so-called “log files” by some of Third-Party Service providers.
+in so-called “log files” by Third-Party Service providers. You can find below
+their list and the type of service provided to this Website.
+
+These providers are not owned or controlled by Me, and I assume no responsibility
+for the content, privacy policies, or practices of them.
+
+I strongly advise You to read the terms and conditions and privacy policies of
+any of the providers below if You have some concern.
+
+- [GitHub Pages](https://pages.github.com/)
+
+  hosts this Website as a subdomain of `github.io`.
+
+- [Microsoft Outlook](https://www.microsoft.com/en-us/microsoft-365/outlook)
+
+  provides Online Email Service.
+
+- [W3Schools](https://www.w3schools.com/w3css/default.asp)
+
+  provides **W3.CSS**, a CSS framework with built-in responsiveness.
+
+- [Google Fonts](https://fonts.google.com/)
+
+  provides more free fonts.
+
+- [Font Awesome](https://fontawesome.com/)
+
+  provides free vector icons and logos.
 
 ## Data provided by You
 
-I process your Personal Data if You contact Me via email in order to reply
-to your requests.
+If You contact Me via email, I'll process your Personal Data for the following
+purpose:
+- Replying to your specific requests.
+
+Your emails will be store on the servers of My Email Service Provider for
+the time necessary to respond to You.
+
+I will not disclose your Personal Data to any other Third-Parties.
 
 ## Cookies and User Tracking
 
-This Website doesn't store any cookie on your computer, nor implements any
+This Website doesn't store any cookie on your Device, nor implements any
 tracking mean.
 
-# Third-Party Service Providers
+# Links to Third-Party Websites
 
 Third-Party Services accessible from this Website are under the third-party
 responsibility.

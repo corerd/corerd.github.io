@@ -75,7 +75,7 @@ and compliance with My [Privacy Policy](/privacy).
 My Service may contain links to third-party websites or services that are
 not owned or controlled by Me.
 
-I have no control over, and assume no responsibility for, the content,
+I have no control over, and assume no responsibility for the content,
 privacy policies, or practices of any third-party websites or services.
 You further acknowledge and agree that I shall not be responsible or liable,
 directly or indirectly, for any damage or loss caused or alleged to be caused
