@@ -1,20 +1,52 @@
   <!-- Footer -->
-  <div class="w3-container w3-padding-64">
-    <footer>
-    <p>
-      (C) 2021 {{ page.site-name }}
-      <span class="w3-tag w3-round">
-        <a href="/terms">Terms</a>
-      </span>
-      <span class="w3-tag w3-round">
-        <a href="/privacy">Privacy</a>
-      </span>
-      <span class="w3-tag w3-round">
-        <a href="#credits">Credits</a>
-      </span>
-    </p>
-    </footer>
-  </div>
+  <footer class="w3-padding-64">
+    <hr>
+
+    <!-- Hidden on small screens -->
+    <div class="w3-row w3-hide-small">
+      <div class="w3-container w3-half">
+        <p>
+          (C) 2021 {{ page.site-name }} Powered by 
+          <span class="w3-tag w3-round">
+            <a href="https://www.w3schools.com/w3css/default.asp">W3.CSS</a>
+          </span>
+        </p>
+      </div>
+      <div class="w3-container w3-half w3-right-align">
+        <p>
+          <span class="w3-tag w3-round">
+            <a href="/terms">Terms</a>
+          </span>
+          <span class="w3-tag w3-round">
+            <a href="/privacy">Privacy</a>
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Hidden on medium and large screens -->
+    <div class="w3-row w3-hide-large w3-hide-medium">
+      <div class="w3-container w3-half">
+        <p>
+          <span class="w3-tag w3-round">
+            <a href="/terms">Terms</a>
+          </span>
+          <span class="w3-tag w3-round">
+            <a href="/privacy">Privacy</a>
+          </span>
+        </p>
+      </div>
+      <div class="w3-container w3-half">
+        <p>
+          (C) 2021 {{ page.site-name }} Powered by 
+          <span class="w3-tag w3-round">
+            <a href="https://www.w3schools.com/w3css/default.asp">W3.CSS</a>
+          </span>
+        </p>
+      </div>
+    </div>
+
+  </footer>
 <!-- End footer -->
 
 <!-- Page Content End -->
