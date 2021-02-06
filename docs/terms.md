@@ -7,7 +7,7 @@ layout: resume
 title: Terms
 synopsis: Terms and Conditions
 ---
-Last updated: February 02, 2021
+Last updated: February 05, 2021
 
 This is My personal self managed Website.
 
@@ -27,18 +27,15 @@ For the purposes of these Terms and Conditions:
 
 - **Country** refers to: Italy
 
-- **Device** means any device that can access the Service such as a computer,
-  a cellphone or a digital tablet.
-
 - **Service** refers to the Website.
 
 - **Terms and Conditions** (also referred as "Terms") mean these Terms and
   Conditions that form the entire agreement between You and the Webmaster
   regarding the use of the Service.
 
-- **Third-party Service** means any services or content (including data,
+- **Third-Party Service** means any services or content (including data,
   information, products or services) provided by a third-party that may
-  be displayed, included or made available by the Service.
+  be displayed, included or made available by this Website.
 
 - **Webmaster** (referred to as either "the Webmaster", "I", "Me" or "My"
   in this agreement) refers to Corrado Ubezio.
@@ -67,16 +64,16 @@ By accessing or using the Service You agree to be bound by these Terms and
 Conditions. If You disagree with any part of these Terms and Conditions then
 You may not access the Service.
 
-You represent that you are over the age of 18. I do not permit those under 18
+You represent that You are over the age of 18. I do not permit those under 18
 to use the Service.
 
 Your access to and use of the Service is also conditioned on Your acceptance of
 and compliance with My [Privacy Policy](/privacy).
 
-# Links to Other Websites
+# Links to Third-Party Websites
 
 My Service may contain links to third-party websites or services that are
-not owned or controlled by the Me.
+not owned or controlled by Me.
 
 I have no control over, and assume no responsibility for, the content,
 privacy policies, or practices of any third-party websites or services.
@@ -167,7 +164,7 @@ in whole or in part, please stop using the website and the Service.
 
 # Contact Me
 
-If you have any questions about these Terms and Conditions, You can contact Me
+If You have any questions about these Terms and Conditions, You can contact Me
 in English and Italian:
 
 - By email: <corerd@live.com>
