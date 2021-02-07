@@ -7,9 +7,9 @@
 - name: SKILLS
   link: /skills.html
   icon: fa-cubes
+- name: WORK
+  link: /work.html
+  icon: fa-industry
 - name: HISTORY
   link: /history.html
   icon: fa-briefcase
-- name: CONTACT
-  link: "#contact"
-  icon: fa-envelope

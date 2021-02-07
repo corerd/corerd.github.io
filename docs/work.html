@@ -1,0 +1,16 @@
+---
+# JEKYLL front matter
+# https://jekyllrb.com/
+
+site-name: Corerd
+layout: resume
+title: Work
+synopsis: Work Experience
+---
+{% for item in site.data.work %}
+  <div class="w3-container w3-card">
+    <h5><i class="fa fa-calendar fa-fw w3-margin-right"></i>{{ item.period }}</h5>
+    <h6><b>{{ item.job }} / {{ item.employer }}</b></h6>
+    <p>{{ item.activities }}</p>
+  </div>
+{% endfor %}
