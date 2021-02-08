@@ -7,4 +7,24 @@ layout: resume
 title: History
 synopsis: Case History
 ---
-<p class="w3-theme-l4 w3-wide w3-center">UNDER CONSTRUCTION</p>
+<table class="w3-table w3-striped w3-bordered">
+    <thead>
+        <tr class="w3-wide w3-theme-l5">
+        <th>Year</th>
+        <th>Activities</th>
+        </tr>  
+    </thead>
+  {% assign fields = site.data.fields %}
+  {% for item in site.data.history %}
+    <tr>
+        <td>{{ item.year }}</td>
+        <td>
+            {{ item.activities }}<br>
+            <b>Application fields:</b>
+            {% for field_id in item.fields %}
+              {{ fields[field_id] }},
+            {% endfor %}
+        </td>
+    </tr>
+  {% endfor %}
+</table>
