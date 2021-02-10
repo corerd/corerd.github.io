@@ -17,19 +17,23 @@ synopsis: Case History
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="w3-dropdown-content w3-bar-block w3-border">
-        <button class="w3-bar-item w3-button" onclick="sel_field_set(event,'ALL Application Fields')">
+        <button id="__all__"
+          class="w3-bar-item w3-button"
+          onclick="draw_items_grouped_by('__all__', 'ALL Application Fields')">
           ALL Application Fields
         </button>
-      {% for field in fields %}
-          <button class="w3-bar-item w3-button" onclick="sel_field_set(event,'{{ field[1] }}')">
-            {{ field[1] }}
+        {% for field in fields %}
+          <button id="{{ field[0] }}"
+            class="w3-bar-item w3-button"
+            onclick="draw_items_grouped_by('{{ field[0] }}', '{{ field[1] }}')">
+              {{ field[1] }}
           </button>
         {% endfor %}
       </div>
     </div>
 </div>
 
-<table class="w3-table w3-striped w3-bordered">
+<table class="w3-table w3-bordered">
     <thead>
         <tr class="w3-wide w3-theme-l5">
         <th>Year</th>
@@ -37,7 +41,7 @@ synopsis: Case History
         </tr>  
     </thead>
   {% for item in site.data.history %}
-    <tr>
+    <tr class="__all__{% for field_id in item.fields %} {{ field_id }}{% endfor %}">
         <td>{{ item.year }}</td>
         <td>
             {{ item.activities }}<br>
