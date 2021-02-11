@@ -11,12 +11,12 @@ synopsis: Case History
 
 <div class="w3-container w3-padding-16">
   <h3>Grouped by</h3>
-    <div class="w3-dropdown-hover">
+    <div class="w3-dropdown-hover" id="drop_select">
       <button class="w3-button w3-theme">
         <span id="sel_field" class="w230px">Select an Application Field</span>
         <i class="fa fa-caret-down"></i>
       </button>
-      <div class="w3-dropdown-content w3-bar-block w3-border">
+      <div class="w3-dropdown-content w3-bar-block w3-border" id="drop_fields">
         <button id="__all__"
           class="w3-bar-item w3-button"
           onclick="draw_items_grouped_by('__all__', 'ALL Application Fields')">
