@@ -25,7 +25,9 @@ element.dispatchEvent(event);
 function draw_items_grouped_by(field_id, field_name) {
   document.getElementById("drop_fields").style.visibility = 'hidden';
 
-  document.getElementById("sel_field").innerHTML = field_name;
+  if (field_name.length > 0)
+    document.getElementById("sel_field").innerHTML = field_name;
+  // else keep the HTML content
 
   if (field_id != '__all__')
   {
@@ -46,5 +48,3 @@ function draw_items_grouped_by(field_id, field_name) {
     el.style.display = 'table-row'
   }
 }
-
-draw_items_grouped_by('__all__', 'Select an Application Field');

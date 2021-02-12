@@ -9,8 +9,8 @@ synopsis: Case History
 ---
 {% assign fields = site.data.fields %}
 
-<div class="w3-container w3-padding-16">
-  <h3>Grouped by</h3>
+<div class="no-js w3-container w3-padding-16" id="select-fields">
+  <h3>Grouped by:</h3>
     <div class="w3-dropdown-hover" id="drop_select">
       <button class="w3-button w3-theme">
         <span id="sel_field" class="w230px">Select an Application Field</span>
@@ -33,7 +33,7 @@ synopsis: Case History
     </div>
 </div>
 
-<table class="w3-table w3-bordered">
+<table class="w3-table w3-bordered w3-striped" id="table-fields">
     <thead>
         <tr class="w3-wide w3-theme-l5">
         <th>Year</th>

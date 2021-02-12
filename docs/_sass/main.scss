@@ -39,3 +39,13 @@ span.w230px {
 .treven {
   background-color: #f1f1f1;  // w3-striped
 }
+
+/*
+  No script
+  If JavaScript is enable, then onload remove this class.
+
+  See: https://stackoverflow.com/a/6184511
+*/
+div.no-js {
+  display: none;
+}

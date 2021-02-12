@@ -38,9 +38,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
   {% include footer.html %}
 
-  {% if page.synopsis == "Case History" %}
-  <!-- JavaScripts -->
-  <script src="/assets/js/dropdown.js"></script>
+  {% if page.title == "History" %}
+    {% include history_scripts.html %}
   {% endif %}
 
 </body>
