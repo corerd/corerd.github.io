@@ -3,6 +3,25 @@
  */
 
 /**
+ * Event constructor
+ * 
+ * @param {*} eventName
+ * 
+ * Supply Event constructor to Internet Explorer
+ * See: https://stackoverflow.com/a/42089476
+ */
+function createNewEvent(eventName) {
+  var event;
+  if (typeof(Event) === 'function') {
+      event = new Event(eventName);
+  } else {
+      event = document.createEvent('Event');
+      event.initEvent(eventName, true, true);
+  }
+  return event;
+}
+
+/**
  * Enable dropdown list on mouseover
  * 
  * See: https://stackoverflow.com/a/50206746
@@ -11,7 +30,8 @@ var element = document.getElementById('drop_select');
 element.addEventListener('mouseover', function() {
   document.getElementById("drop_fields").style.visibility = 'visible';
 });
-var event = new MouseEvent('mouseover');
+//var event = new MouseEvent('mouseover');
+var event = createNewEvent('mouseover');
 element.dispatchEvent(event);
 
 /**
