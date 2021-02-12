@@ -31,20 +31,18 @@ function draw_items_grouped_by(field_id, field_name) {
 
   if (field_id != '__all__')
   {
-    for (let el of document.querySelectorAll('.__all__'))
-    {
-      el.style.display = 'none'
-    }
+    [].forEach.call(document.querySelectorAll('.__all__'), function (el) {
+      el.style.display = 'none';
+    });
   }
 
   var treven = 0;
-  for (let el of document.querySelectorAll('.'+field_id))
-  {
+  [].forEach.call(document.querySelectorAll('.'+field_id), function (el) {
     if (treven)
-      el.classList.add("treven");
+      el.classList.add("tr-even");
     else
-      el.classList.remove("treven");
+      el.classList.remove("tr-even");
       treven = 1 - treven;
-    el.style.display = 'table-row'
-  }
+    el.style.display = 'table-row';
+  });
 }
