@@ -8,6 +8,7 @@ title: History
 synopsis: Case History
 ---
 {% assign fields = site.data.fields %}
+{% assign fields_sort = fields | sort: "name" %}
 
 <div class="no-js w3-container w3-padding-16" id="select-fields">
   <h3>Grouped by:</h3>
@@ -22,11 +23,11 @@ synopsis: Case History
           onclick="draw_items_grouped_by('__all__', 'ALL Application Fields')">
           ALL Application Fields
         </button>
-        {% for field in fields %}
-          <button id="{{ field[0] }}"
+        {% for field in fields_sort %}
+          <button id="{{ field.id }}"
             class="w3-bar-item w3-button"
-            onclick="draw_items_grouped_by('{{ field[0] }}', '{{ field[1] }}')">
-              {{ field[1] }}
+            onclick="draw_items_grouped_by('{{ field.id }}', '{{ field.name }}')">
+              {{ field.name }}
           </button>
         {% endfor %}
       </div>
@@ -47,10 +48,11 @@ synopsis: Case History
             {{ item.activities }}<br>
             <b>Application fields:</b>
             {% for field_id in item.fields %}
+              {% assign id_list = fields | where: "id", field_id %}
               {% if forloop.last %}
-                {{ fields[field_id] }}
+                {{ id_list[0]["name"] }}
               {% else %}
-                {{ fields[field_id] }},
+                {{ id_list[0]["name"] }},
               {% endif %}
             {% endfor %}
         </td>

@@ -1,10 +1,20 @@
-desktop: Desktop
-cv: Computer Vision
-embedded: Embedded
-pwr: Power Management
-domotics: Domotics
-pos: PoS terminals
-wcms: Web CMS
-testing: Test and Inspection
-training: Developers training
-ic: Semiconductor Technologies
+- id: desktop
+  name: Desktop
+- id: cv
+  name: Computer Vision
+- id: embedded
+  name: Embedded
+- id: pwr
+  name: Power Management
+- id: domotics
+  name: Domotics
+- id: pos
+  name: PoS terminals
+- id: wcms
+  name: Web CMS
+- id: testing
+  name: Test and Inspection
+- id: training
+  name: Developers training
+- id: ic
+  name: Semiconductor Technologies
