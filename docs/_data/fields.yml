@@ -1,20 +1,35 @@
-- id: desktop
-  name: Desktop
-- id: cv
-  name: Computer Vision
 - id: embedded
   name: Embedded
+  desc: Embedded systems firmware.
 - id: pwr
   name: Power Management
-- id: domotics
-  name: Domotics
-- id: pos
-  name: PoS terminals
-- id: wcms
-  name: Web CMS
-- id: testing
-  name: Test and Inspection
-- id: training
-  name: Developers training
+  desc: Firmware-controlled power management multi-phase switching regulator SoC.
 - id: ic
   name: Semiconductor Technologies
+  desc: Semiconductor Technologies.
+- id: desktop
+  name: Desktop
+  desc: Desktop applications targeting Linux, Mac OS X and Windows platforms.
+- id: testing
+  name: Test and Inspection
+  desc: Test and Inspection desktop and embedded applications.
+- id: mobile
+  name: Mobile
+  desc: Mobile applications for Android and iOS devices.
+- id: cv
+  name: Computer Vision
+  desc: Image processing and computer vision applications.
+- id: domotics
+  name: Domotics
+  desc: Home automation systems (domotics) integration.
+- id: pos
+  name: PoS terminals
+  desc: >-
+    Security and data protection architectures in electronic fund transfer
+    devices (PoS terminals).
+- id: wcms
+  name: Web CMS
+  desc: Web content management systems.
+- id: training
+  name: Developers training
+  desc: Firmware and software developers training.

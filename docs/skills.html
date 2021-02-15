@@ -26,9 +26,16 @@ synopsis: Skills
         <th>Application Fields</th>
       </tr>  
     </thead>
-    {% for item in site.data.skills-fields %}
+    {% for item in site.data.fields %}
       <tr>
-        <td>{{ item.field }}</td>
+        <td>
+          {{ item.desc }}&nbsp;
+          <span class="w3-tag w3-round">
+            <a href="/history?id={{ item.id }}&name={{ item.name | replace: ' ', '%20' }}">
+              <i class="fa fa-briefcase"></i>
+            </a>
+          </span>
+        </td>
       </tr>
     {% endfor %}
   </table>

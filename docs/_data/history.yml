@@ -25,6 +25,9 @@
 - year: 2009
   fields: [wcms]
   activities: Websites development.
+- year: 2008
+  fields: [mobile]
+  activities: Android applications development.
 - year: 2007
   fields: [embedded, pos, testing]
   activities: >-

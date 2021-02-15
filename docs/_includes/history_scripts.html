@@ -1,7 +1,24 @@
 <script src="/assets/js/dropdown.js"></script>
 <script>
+  function get_URL_param(name) {
+    // See: http://stackoverflow.com/a/831060
+    if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+      return decodeURIComponent(name[1]);
+  }
+
   // If JavaScript is enable, zebra-stripes table is explicitly managed
   document.getElementById("select-fields").classList.remove("no-js");
   document.getElementById("table-fields").classList.remove("w3-striped");
-  draw_items_grouped_by('__all__', '');
+
+  field_id = get_URL_param('id');
+  if (!field_id) {
+    field_id = '__all__';
+    field_name = '';
+  }
+  else {
+    field_name = get_URL_param('name');
+    if (!field_name)
+      field_name = '';
+  }
+  draw_items_grouped_by(field_id, field_name);
 </script>
