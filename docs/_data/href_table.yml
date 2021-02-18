@@ -1,0 +1,36 @@
+- id: ((stm))
+  name: STMicroelectronics
+  link: https://www.st.com
+- id: ((mrd))
+  name: MR&D
+  link: https://www.mrd-institute.com
+- id: ((bticino))
+  name: BTicino
+  link: https://professionisti.bticino.it/catalogo-prodotti/sistemi-di-segnalazione-e-chiamate-per-camere-di-degenza/
+- id: ((cnr))
+  name: CNR-IMM
+  link: https://www.imm.cnr.it
+- id: ((pci))
+  name: PCI
+  link: https://www.pcisecuritystandards.org/index.php
+- id: ((iso7816))
+  name: "ISO/IEC 7816"
+  link: https://en.wikipedia.org/wiki/ISO/IEC_7816
+- id: ((emvco))
+  name: EMVCo
+  link: https://www.emvco.com
+- id: ((autostrade))
+  name: "Autostrade per l'Italia"
+  link: https://www.autostrade.it/en/chi-siamo
+- id: ((olivetti))
+  name: Olivetti
+  link: https://it.wikipedia.org/wiki/Olivetti
+- id: ((telepass))
+  name: Telepass
+  link: https://it.wikipedia.org/wiki/Telepass
+- id: ((scn))
+  name: Smart Card News June 1999
+  link: assets/drop/SmartCardNews_june99.pdf
+- id: ((google))
+  name: Google
+  link: https://www.google.com/intl/en/about/datacenters/

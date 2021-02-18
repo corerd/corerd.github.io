@@ -1,3 +1,6 @@
+# Hyperlinks are tagged by (( ))
+# The file href_table.yml contains their references
+
 - year: 2017
   fields: [desktop, pwr, ic, testing]
   activities: >-
@@ -6,21 +9,21 @@
 - year: 2015
   fields: [embedded, pwr, ic, testing]
   activities: >-
-    Teamed up {{stm}} and {{Google}} developing an innovative isolated 48V
+    Teamed up ((stm)) and ((google)) developing an innovative isolated 48V
     resonant multi-phase direct power conversion architecture targeting
     efficiency improvement in data center. 
 - year: 2012
   fields: [embedded, pwr, testing]
   activities: >-
-    Teamed up {{stm}} for developing the world's first multi phases digital VRM.
+    Teamed up ((stm)) for developing the world's first multi phases digital VRM.
 - year: 2011
   fields: [embedded, domotics]
   activities: >-
-    Teamed up {{mrd}} for developing a Nurse Call System using {{bticino}}.
+    Teamed up MR&D for developing a Nurse Call System using ((bticino)) equipments.
 - year: 2010
   fields: [cv, desktop, domotics]
   activities: >-
-    Teamed up {{cnr}} and {{mrd}} for developing a rescue system for elderly people
+    Teamed up ((cnr)) and MR&D for developing a rescue system for elderly people
     using computer vision techniques.
 - year: 2009
   fields: [wcms]
@@ -31,7 +34,7 @@
 - year: 2007
   fields: [embedded, pos, testing]
   activities: >-
-    Design of a PIN entry device achieving the {{pci}} approval as a PIN transaction
+    Design of a PIN entry device achieving the ((pci)) approval as a PIN transaction
     security device.
 - year: 2006
   fields: [embedded, pos]
@@ -61,11 +64,11 @@
   activities: >-
     Teamed up Slovenská Sporiteľňa Bank (Bratislava, Slovak Republic)
     for developing a PoS application which made the first international
-    money transfer transaction with an EMV smart card (see {{scn}} at page 16).
+    money transfer transaction with an EMV smart card (see ((scn)) at page 16).
 - year: 1998
   fields: [embedded, pos, testing]
   activities: >-
-    Coding of an embedded {{iso7816}} smart card driver achieving the {{emvco}}
+    Coding of an embedded ((iso7816)) smart card driver achieving the ((emvco))
     approval for PoS terminals."
 - year: 1997
   fields: [embedded, pos, training]
@@ -111,7 +114,7 @@
 - year: 1989
   fields: [embedded]
   activities: >-
-    Teamed up {{autostrade}} and {{olivetti}} to carryout the first {{telepass}}
+    Teamed up ((autostrade)) and ((olivetti)) to carryout the first ((telepass))
     drive-through automatic payment system.
     The development involved both the firmware of the devices installed
     in the car and the ones of the gate lanes in the toll station.

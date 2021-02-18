@@ -41,11 +41,21 @@ synopsis: Case History
         <th>Activities</th>
         </tr>  
     </thead>
+  {% assign href_table = site.data.href_table %}
   {% for item in site.data.history %}
     <tr class="__all__{% for field_id in item.fields %} {{ field_id }}{% endfor %}">
         <td>{{ item.year }}</td>
         <td>
-            {{ item.activities }}<br>
+            {% assign activity = item.activities %}
+            {% for href in href_table %}
+              {% capture hyperlink %}
+              <a href="{{ href.link }}">{{ href.name }}</a>
+              {% endcapture %} 
+              {% assign activity = activity | replace: href.id, hyperlink %}
+            {% endfor %}
+            {{ activity }}
+            <br>
+
             <b>Application fields:</b>
             {% for field_id in item.fields %}
               {% assign id_list = fields | where: "id", field_id %}
