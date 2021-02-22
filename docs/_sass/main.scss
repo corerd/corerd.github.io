@@ -49,3 +49,17 @@ span.w230px {
 div.no-js {
   display: none;
 }
+
+/*
+  Stylng HR (Horizontal Ruler/Line)
+
+  See: https://www.w3schools.com/howto/howto_css_style_hr.asp
+*/
+hr.thick-1x {
+  border: 1px solid;
+  color: #b1b8e3;  // w3-theme-l3
+}
+hr.thick-2x {
+  border: 2px solid;
+  color: #b1b8e3;  // w3-theme-l3
+}
