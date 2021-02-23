@@ -9,7 +9,7 @@
   desc: Semiconductor Technologies.
 - id: desktop
   name: Desktop
-  desc: Desktop applications targeting Linux, Mac OS X and Windows platforms.
+  desc: Desktop applications targeting Linux, macOS and Windows platforms.
 - id: testing
   name: Test and Inspection
   desc: Test and Inspection desktop and embedded applications.
