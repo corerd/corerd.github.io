@@ -21,20 +21,24 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <body class="w3-text-theme">
   {% include navigation.html %}
 
+  <!--Begin of page content-->
   {% if page.synopsis != "Home" %}
-  <div class="w3-container w3-padding w3-theme">
-    <h2>{{ page.synopsis }}</h2>
+  <!-- Hidden on small screens -->
+  <div class="heading-top w3-hide-small">
+    <div class="w3-padding w3-theme">
+      <h2>{{ page.synopsis }}</h2>
+    </div>
   </div>
-  <!--Begin of content container-->
-  <div class="w3-container">  
+  <!-- Hidden on medium and large screens -->
+  <div class="heading-center w3-hide-large w3-hide-medium">
+    <div class="w3-padding w3-theme">
+      <h2>{{ page.synopsis }}</h2>
+    </div>
+  </div>
   {% endif %}
 
   {{ content }}
-
-  {% if page.url != "/" %}
-  <!--End of content container-->
-  </div>
-  {% endif %}
+  <!--End of page content-->
 
   {% include footer.html %}
 
