@@ -7,17 +7,16 @@ layout: resume
 title: Home
 synopsis: Home
 ---
-<!-- Header/Home -->
-<header class="heading-img w3-display-container" id="home">
-  <h1 class="w3-jumbo w3-center w3-text-white">
-    <span class="w3-hide-small">I'm</span> Corrado
-  </h1>
-</header>
+<!-- Begin of Header/Home -->
 
-  <hr class="thick-2x">
-
-  <!-- Hidden on small screens -->
-  <div class="w3-cell-row w3-hide-small">
+<!-- Hidden on small screens -->
+<div class="w3-hide-small">
+    <header class="heading-img w3-display-container" id="home">
+    <h1 class="w3-jumbo w3-center w3-text-white">
+      I'm Corrado
+    </h1>
+  </header>
+  <div class="w3-cell-row">
     <div class="w3-cell w3-cell-middle">
       <h3>Software Engineer</h3>
     </div>
@@ -25,18 +24,25 @@ synopsis: Home
       {% include contact-icons.html %}
     </div>
   </div>
+</div>
 
-  <!-- Hidden on medium and large screens -->
-  <div class="w3-hide-large w3-hide-medium">
-    <div class="w3-center">
-      <h3>Software Engineer</h3>  
-    </div>
-    <div class="w3-center w3-wide">
-      {% include contact-icons.html %}
-    </div>  
+<!-- Hidden on medium and large screens -->
+<div class="w3-hide-large w3-hide-medium">
+  <header class="heading-img-small w3-display-container" id="home">
+    <h1 class="w3-jumbo w3-center w3-text-white">
+      Corrado
+    </h1>
+  </header>
+  <div class="w3-center">
+    <h3>Software Engineer</h3>  
   </div>
+  <div class="w3-center w3-wide">
+    {% include contact-icons.html %}
+  </div>  
+</div>
 
   <hr class="thick-1x">
+<!-- End of Header/Home -->
 
   <h3>About Me</h3>
   <p>
