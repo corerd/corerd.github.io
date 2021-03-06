@@ -12,9 +12,38 @@ Required:
 - Gem Bundler
 - GCC and Make
 
-To install Jekyll, go to `docs` directory that has the Gemfile, edit Gemfile
-commenting the line `gem "github-pages"` and uncommenting the line `gem "jekyll"`,
-then run:
+### Install prerequisites on Linux
+Look at [Install dependencies](https://jekyllrb.com/docs/installation/ubuntu).
+
+Install Ruby and build tools:
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
+
+Avoid installing RubyGems packages (called gems) as the root user.
+Instead, set up a gem installation directory for your user account.
+The following commands will add environment variables to your `~/.bashrc` file
+to configure the gem installation path:
+```
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Install the bundler gem:
+```
+gem install bundler
+```
+
+### Install Jekyll (all platform)
+
+Go to `docs` directory that has the Gemfile, and edit Gemfile commenting
+the line `gem "github-pages"` and un-commenting the line `gem "jekyll"`.
+Don't push the modified Gemfile to the origin repository,
+but keep only a local copy of it.
+
+Finally, run:
 ```
 bundle install
 ```
