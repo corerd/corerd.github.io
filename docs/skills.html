@@ -19,27 +19,7 @@ synopsis: Skills
       </tr>
     {% endfor %}
   </table>
-<hr>
-  <table class="w3-table w3-striped w3-bordered">
-    <thead>
-      <tr class="w3-wide w3-theme-l5">
-        <th>Application Fields</th>
-      </tr>  
-    </thead>
-    {% for item in site.data.fields %}
-      <tr>
-        <td>
-          {{ item.desc }}&nbsp;
-          <span class="w3-tag w3-round">
-            <a href="/history?id={{ item.id }}&name={{ item.name | replace: ' ', '%20' }}">
-              <i class="fa fa-briefcase"></i>
-            </a>
-          </span>
-        </td>
-      </tr>
-    {% endfor %}
-  </table>
-<hr>
+<hr class="thick-1x">
   <table class="w3-table w3-striped w3-bordered">
     <thead>
       <tr class="w3-wide w3-theme-l5">

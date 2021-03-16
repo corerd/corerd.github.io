@@ -14,6 +14,15 @@ a:hover {
   color: black;
   background-color: #d8dcf1;  // w3-theme-l4
 }
+tr a {
+  color: inherit;
+  background-color: inherit;
+  text-decoration: none;
+}
+tr a:hover {
+  color: inherit;
+  background-color: inherit;
+}
 
 /*
    Styling Icon Links

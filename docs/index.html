@@ -47,6 +47,7 @@ synopsis: Home
   <div class="w3-third">
     <img src="/assets/img/proud.svg" style="width:50%">
     <p class="w3-container">
+      I'm based in Milan, IT.<br>
       As a Software Engineer, I have over a decade of experience in 
       embedded systems design.<br>
       You can find my career in the<br>
@@ -63,8 +64,11 @@ synopsis: Home
   <div class="w3-third w3-theme-l5">
     <img src="/assets/img/languages.svg" style="width:50%">
     <p class="w3-container">
-      My main development languages are C/C++ and Python, but I have worked with
-      more, using a lot of tools and frameworks that you can find in the<br>
+      My main languages are Assembly and C/C++ to target microprocessors
+      in embedded systems.<br>
+      I work also with C#, Java, Python and more to develop desktop and mobile
+      applications.<br>
+      You can find my expertise in the<br>
       <span class="w3-tag w3-round">
         <a href="skills.html">SKILLS Page</a>
       </span>
@@ -88,11 +92,22 @@ synopsis: Home
 <hr class="thick-1x">
 
 <h3 id="fields">Application Fields</h3>
-  <p>
-    In the past, I developed security and data protection architectures
-    for Electronic Fund Transfer devices such as PoS terminals.<br>
-    In the last few years, I get involved in power management multi-phase
-    switching regulator SOCs at STMicroelectronics.<br>
-    I also develop desktop applications in Linux, macOS and Windows platforms
-    to test the above devices.
-  </p>
+<p>
+  I'm currently involved in power management SOCs design at STMicroelectronics.
+</p>
+<p>
+  Below is the list of application fields I deal with.<br>
+  Each item links to the related cases in the <a href="history.html">HISTORY page</a>
+</p>
+
+<table class="w3-table w3-hoverable w3-striped">
+{% for item in site.data.fields %}
+    <tr>
+      <td>
+        <a href="/history?id={{ item.id }}&name={{ item.name | replace: ' ', '%20' }}">
+          <i class="fa fa-external-link"></i>&nbsp;{{ item.desc }}
+        </a>
+      </td>
+    </tr>
+{% endfor %}
+</table>
