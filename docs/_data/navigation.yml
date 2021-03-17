@@ -9,7 +9,7 @@
   icon: fa-cubes
 - name: WORK
   link: /work.html
-  icon: fa-industry
+  icon: fa-briefcase
 - name: HISTORY
   link: /history.html
-  icon: fa-briefcase
+  icon: fa-list
