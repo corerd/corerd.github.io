@@ -100,14 +100,35 @@ synopsis: Home
   Each item links to the related cases in the <a href="history.html">HISTORY page</a>
 </p>
 
-<table class="w3-table-all w3-hoverable w3-card">
-{% for item in site.data.fields %}
-    <tr>
-      <td>
-        <a href="/history?id={{ item.id }}&name={{ item.name | replace: ' ', '%20' }}">
-          <i class="fa fa-external-link"></i>&nbsp;{{ item.desc }}
-        </a>
-      </td>
-    </tr>
-{% endfor %}
+<!-- Hidden on medium and small screens -->
+<div class="w3-row w3-hide-medium w3-hide-small">
+  <div class="w3-twothird">
+    <table class="w3-table-all w3-hoverable w3-card">
+    {% for item in site.data.fields %}
+        <tr>
+          <td>
+            <a href="/history?id={{ item.id }}&name={{ item.name | replace: ' ', '%20' }}">
+              <i class="fa fa-external-link"></i>&nbsp;{{ item.desc }}
+            </a>
+          </td>
+        </tr>
+    {% endfor %}
+    </table>
+  </div>
+  <div class="w3-third">
+    <img src="/assets/img/bookmarks.svg" style="margin:50px 15px">
+  </div>
+</div>
+
+<!-- Hidden on large screens -->
+<table class="w3-table-all w3-hoverable w3-card w3-hide-large">
+  {% for item in site.data.fields %}
+      <tr>
+        <td>
+          <a href="/history?id={{ item.id }}&name={{ item.name | replace: ' ', '%20' }}">
+            <i class="fa fa-external-link"></i>&nbsp;{{ item.desc }}
+          </a>
+        </td>
+      </tr>
+  {% endfor %}
 </table>
