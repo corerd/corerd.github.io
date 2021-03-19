@@ -63,8 +63,8 @@ For the purposes of this Privacy Policy:
   information, products or services) provided by a third-party that may
   be displayed, included or made available by this Website.
 
-- **Webmaster** (referred to as either "the Webmaster", "I", "Me" or "My"
-  in this agreement) refers to Corrado Ubezio.
+- **Webmaster** (referred to as either "the Webmaster", "Corerd", "I", "Me"
+  or "My" in this agreement) refers to Corrado Ubezio.
 
 - **Website** refers to Corerd, accessible from <https://corerd.github.io>
 
