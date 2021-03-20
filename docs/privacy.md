@@ -7,7 +7,7 @@ layout: resume
 title: Privacy
 synopsis: Privacy Policy
 ---
-Last updated: February 05, 2021
+Last updated: March 20, 2021
 
 This Website is hosted by [GitHub Pages](https://pages.github.com/)
 in a subdomain of `github.io`.
@@ -142,6 +142,15 @@ I will not disclose your Personal Data to any other Third-Parties.
 
 This Website doesn't store any cookie on your Device, nor implements any
 tracking mean.
+
+### Client-side scripts
+
+This Website is almost scripts free, that is jQuery or JavaScript code that
+execute on client's machine.
+
+Scripts are executed only in the HISTORY Page to group the activities listing
+by Application Field. Anyway, if You disable script execution in your browser,
+You'll loss the grouping feature, but the page rendering will not be affected.
 
 ## Links to Third-Party Websites
 
