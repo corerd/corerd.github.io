@@ -7,7 +7,7 @@ layout: resume
 title: Credits
 synopsis: Credits
 ---
-This Website is built by **Corerd** with responsive design in mind
+This Website is built by **Corrado** with responsive design in mind
 to provide an optimal viewing experience across a wide range of devices
 (from smart phones to desktop computer monitors).
 
@@ -27,6 +27,6 @@ listed below.
 [W3Schools](https://www.w3schools.com/w3css/default.asp) provides the
 **W3.CSS** framework.
 
-**Corerd** is not affiliated, associated, authorized, endorsed by, or in any way
+**Corrado** is not affiliated, associated, authorized, endorsed by, or in any way
 officially connected with any of the companies, organizations and individuals
 mentioned above.
