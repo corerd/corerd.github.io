@@ -16,15 +16,15 @@ The Privacy Policy is aimed at describing the management of the Personal Data
 collected by Me through the GitHub Pages third level domain
 `https://corerd.github.io`, in compliance with the applicable law.
 
-# Interpretation and Definitions
+## Interpretation and Definitions
 
-## Interpretation
+### Interpretation
 
 The words of which the initial letter is capitalized have meanings defined
 under the following conditions. The following definitions shall have the same
 meaning regardless of whether they appear in singular or in plural.
 
-## Definitions
+### Definitions
 
 For the purposes of this Privacy Policy:
 
@@ -63,8 +63,8 @@ For the purposes of this Privacy Policy:
   information, products or services) provided by a third-party that may
   be displayed, included or made available by this Website.
 
-- **Webmaster** (referred to as either "the Webmaster", "Corerd", "I", "Me"
-  or "My" in this agreement) refers to Corrado Ubezio.
+- **Webmaster** (referred to as either "the Webmaster", "I", "Me" or "My"
+  in this agreement) refers to **Corrado Ubezio**.
 
 - **Website** refers to Corerd, accessible from <https://corerd.github.io>
 
@@ -72,13 +72,13 @@ For the purposes of this Privacy Policy:
   or other legal entity on behalf of which such individual is accessing or
   using the Service, as applicable.
 
-# The Responsible for Data Processing
+## The Responsible for Data Processing
 
 The Controller is Me, You can contact Me in English and Italian:
 
 - By email: <corerd@live.com>
 
-# Personal Data Collected
+## Personal Data Collected
 
 In general, You can access this Website without providing Personal Data.
 However, each time you access the website, your Internet browser automatically
@@ -127,7 +127,7 @@ any of the providers below if You have some concern.
 
   provides free vector icons and logos.
 
-## Data provided by You
+### Data provided by You
 
 If You contact Me via email, I'll process your Personal Data for the following
 purpose:
@@ -138,12 +138,12 @@ the time necessary to respond to You.
 
 I will not disclose your Personal Data to any other Third-Parties.
 
-## Cookies and User Tracking
+### Cookies and User Tracking
 
 This Website doesn't store any cookie on your Device, nor implements any
 tracking mean.
 
-# Links to Third-Party Websites
+## Links to Third-Party Websites
 
 Third-Party Services accessible from this Website are under the third-party
 responsibility.
@@ -151,7 +151,7 @@ responsibility.
 I decline all responsibility concerning requests and/or provision of
 Personal Data to Third-Party websites.
 
-# Changes to This Privacy Policy
+## Changes to This Privacy Policy
 
 I reserve the right, at My sole discretion, to modify or replace this
 Privacy Policy at any time. I will publish any update on this page.
