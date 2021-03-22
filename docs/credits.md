@@ -20,7 +20,9 @@ listed below.
 
 [Google Fonts](https://fonts.google.com/) provides more text fonts.
 
-[Jekyll](https://jekyllrb.com/) is the static site generator and template engine.
+[Jekyll](https://jekyllrb.com/) is the static site generator engine.
+
+[Liquid](https://shopify.github.io/liquid/) used by Jekyll as template language.
 
 [unDraw](https://undraw.co/) provides vector images.
 
