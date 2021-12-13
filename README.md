@@ -59,7 +59,7 @@ gem "jekyll"
 ```
 
 **Don't push the modified Gemfile to the GitHub Pages repository**,
-but keep only a local copy of it.
+but keep only a local copy of it (see below).
 
 Finally, run:
 ```
@@ -75,6 +75,40 @@ bundle exec jekyll serve
 ```
 Your site will be also available on a local server at the address
 [http://localhost:4000](http://localhost:4000)
+
+
+## Untrack Gemfile in local repository but keep at origin
+
+**Gemfile** manages the site building and running.
+You can configure Jekyll or GitHub Pages.
+
+When you clone the repo, **Gemfile** is made to use GitHub Pages, then
+you have to update its content to use Jekyll for testing purposes to build
+and run your site locally.
+
+If you want that GitHub Pages continues to serve your site,
+**don't push your local Gemfile changes to the central origin repository**.
+
+The safe way is to untrack **Gemfile** in your local repository. First of all,
+check that .gitignore contains the following line (otherwise add it):
+```
+Gemfile*
+```
+
+Now open a terminal and move to the directory containing **Gemfile**,
+then run the following command:
+```
+git update-index --assume-unchanged Gemfile
+```
+
+The above steps are required only once, after you cloned the repo.
+Now you can update **Gemfile** to build and run your site locally,
+and git will assume it has not been changed, so you won’t commit anything.
+
+You can start track **Gemfile** again entering the command:
+```
+git update-index --no-assume-unchanged Gemfile
+```
 
 
 # Credits
