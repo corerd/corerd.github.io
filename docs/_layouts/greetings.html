@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.site-name }} | {{ page.title }}</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="/assets/css/wintergreetings.css">  </head>
+  <body>
+
+    {{ content }}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/assets/js/wintergreetings.js"></script>
+    <script>
+        function get_URL_param(name) {
+          // See: http://stackoverflow.com/a/831060
+          if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+            return decodeURIComponent(name[1]);
+        }
+
+        recipient = get_URL_param('to');
+        if (!recipient) {
+            recipient = 'Folks';
+        }
+        document.getElementById("to").innerHTML = recipient + '!';
+    </script>
+
+  </body>
+</html>
