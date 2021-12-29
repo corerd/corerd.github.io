@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.site-name }} | {{ page.title }}</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="/assets/css/fireworks.css">
+  </head>
+
+  <body>
+
+    {{ content }}
+
+    <script src='/assets/js/fscreen%401.0.1.js'></script>
+    <script src='/assets/js/Stage%400.1.4.js'></script>
+    <script src='/assets/js/MyMath.js'></script>
+
+    <script id="rendered-js" src="/assets/js/fireworks.js" ></script>
+
+    <script>
+      function get_URL_param(name) {
+        // See: http://stackoverflow.com/a/831060
+        if(name=(new RegExp('[?&]'+encodeURIComponent(name)+'=([^&]*)')).exec(location.search))
+          return decodeURIComponent(name[1]);
+      }
+
+      recipient = get_URL_param('to');
+      if (!recipient) {
+          recipient = 'ALL';
+      }
+      document.getElementById("to").innerHTML = recipient;
+    </script>
+
+  </body>
+</html>
