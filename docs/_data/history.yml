@@ -1,6 +1,15 @@
 # Hyperlinks are tagged by (( ))
 # The file href_table.yml contains their references
 
+- year: 2024
+  fields: [ic, crypt]
+  activities: >-
+    Design embedded authentication frameworks for host-device communication
+    using cryptographic algorithms.
+- year: 2021
+  fields: [ic, testing]
+  activities: >-
+    Phase-change memory (PCM) integration into a System-on-Chip (SoC).
 - year: 2017
   fields: [desktop, pwr, ic, testing]
   activities: >-
