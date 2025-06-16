@@ -4,27 +4,27 @@
 - year: 2017
   fields: [desktop, pwr, ic, testing]
   activities: >-
-    Cross-platform GUI applications for validation of multi-phase switching
-    power regulator SoC.
+    Developed cross-platform GUI tools to validate multi-phase switching power regulator SoCs.
 - year: 2015
   fields: [embedded, pwr, ic, testing]
   activities: >-
-    Teamed up ((stm)) and ((google)) developing an innovative isolated 48V
-    resonant multi-phase direct power conversion architecture targeting
-    efficiency improvement in data center. 
+    Collaborated with ((stm)) and ((google)) to develop an innovative isolated 48V resonant
+    multi-phase direct power conversion architecture, significantly improving efficiency
+    for data center applications.
 - year: 2012
   fields: [embedded, pwr, testing]
   activities: >-
-    Teamed up ((stm)) for developing the world's first multi phases digital VRM.
+    Collaborated with ((stm)) to develop the world's first multi-phase digital
+    Voltage Regulator Module (VRM).
 - year: 2011
   fields: [embedded, domotics]
   activities: >-
-    Teamed up MR&D for developing a Nurse Call System using ((bticino)) equipments.
+    Collaborated with MR&D to develop a Nurse Call System utilizing ((bticino)) equipment.
 - year: 2010
   fields: [cv, desktop, domotics]
   activities: >-
-    Teamed up ((cnr)) and MR&D for developing a rescue system for elderly people
-    using computer vision techniques.
+    Collaborated with ((cnr)) and MR&D to develop a computer vision-based rescue system
+    for elderly care, enabling real-time monitoring and emergency detection.
 - year: 2009
   fields: [wcms]
   activities: Websites development.
@@ -32,19 +32,19 @@
   fields: [mobile]
   activities: Android applications development.
 - year: 2007
-  fields: [embedded, pos, testing]
+  fields: [embedded, pos, crypt, testing]
   activities: >-
-    Design of a PIN entry device achieving the ((pci)) approval as a PIN transaction
-    security device.
+    Designed a PIN entry device that achieved ((pci)) certification as a secure
+    PIN transaction device.
 - year: 2006
   fields: [embedded, pos]
   activities: >-
-    Design of a modular system consisting of multi PIC devices communicating
-    over an SPI bus with a master.
+    Designed a modular system of multiple PIC microcontrollers communicating
+    over an SPI bus with a master controller.
 - year: 2005
   fields: [embedded, pos, training]
   activities: >-
-    Start-up of a PoS software development team in Fortaleza (Brazil).
+    Established and led a PoS software development team in Fortaleza, Brazil.
 - year: 2003
   fields: [embedded, pos]
   activities: >-
@@ -53,28 +53,27 @@
 - year: 2001
   fields: [embedded, pos]
   activities: >-
-    Development of the driver for a GSM/GPRS/UMTS module and integration
-    in the SDK for PoS terminal embedded wireless applications.
+    Developed a driver for GSM/GPRS/UMTS modules and integrated it into the SDK,
+    enabling wireless connectivity for PoS terminal embedded applications.
 - year: 2000
   fields: [embedded, pos, training]
   activities: >-
-    Start-up of a PoS software development team in Madrid (Spain).
+    Established and led a PoS software development team in Madrid (Spain).
 - year: 1999
-  fields: [embedded, pos]
+  fields: [embedded, pos, crypt]
   activities: >-
-    Teamed up Slovenská Sporiteľňa Bank (Bratislava, Slovak Republic)
-    for developing a PoS application which made the first international
-    money transfer transaction with an EMV smart card (see ((scn)) at page 16).
+    Collaborated with Slovenská Sporiteľňa Bank (Bratislava, Slovak Republic) to develop
+    a PoS application that enabled the first international money transfer transaction
+    using an EMV smart card (see ((scn)) p.16).
 - year: 1998
-  fields: [embedded, pos, testing]
+  fields: [embedded, pos, testing, crypt]
   activities: >-
-    Coding of an embedded ((iso7816)) smart card driver achieving the ((emvco))
-    approval for PoS terminals."
+    Developed an embedded ((iso7816)) smart card driver that achieved ((emvco)) approval for PoS terminals.
 - year: 1997
   fields: [embedded, pos, training]
   activities: >-
-    Start-up of PoS software development teams in Bratislava (Slovak Republic)
-    and Malta Island.
+    Established and led PoS software development teams in Bratislava (Slovak Republic)
+    and Malta, overseeing team formation and project initiation.
 - year: 1996
   fields: [embedded, pos]
   activities: >-
@@ -82,25 +81,27 @@
 - year: 1995
   fields: [desktop, embedded, pos]
   activities: >-
-    Design and development of a PoS terminals remote control system, running
-    on MS-DOS/Unix, in order to upload software updates, profiles, and perform
-    helpdesk facilities for the terminals installed on field.
+    Designed and developed a remote management system for PoS terminals, enabling
+    software updates, profile distribution, and remote support via MS-DOS/Unix platforms
+    for field-deployed devices.
 - year: 1994
-  fields: [embedded, pos]
+  fields: [embedded, pos, crypt]
   activities: >-
-    Development of cryptographic algorithms (DES, AES, RSA) and secure protocols
-    on an 8-bit processor platform.
+    Developed and implemented cryptographic algorithms (DES, AES, RSA) and
+    secure communication protocols for 8-bit processor platforms,
+    enhancing data security in embedded PoS systems.
 - year: 1993
   fields: [embedded, pos, testing]
   activities: >-
-    Design of a real time embedded operating system running on an 8-bit platform
-    for PoS terminals. Development of device driver, Electronic Funds Transfer
-    (EFT) protocols over Public Switched Telephone Network (PSTN) for payment devices.
+    Designed a real-time embedded operating system for 8-bit PoS terminals,
+    including development of device drivers and implementation of
+    Electronic Funds Transfer (EFT) protocols over Public Switched Telephone Network (PSTN)
+    for secure payment transactions.
 - year: 1992
   fields: [cv, embedded]
   activities: >-
-    Development of an embedded Optical Character Recognition (OCR) firmware
-    to extract text from images taken on the fly by means of a video camera.
+    Developed embedded Optical Character Recognition (OCR) firmware to extract text
+    from images captured in real time by a video camera.
 - year: 1991
   fields: [embedded, pos]
   activities: >-
@@ -109,15 +110,17 @@
 - year: 1990
   fields: [embedded, pos]
   activities: >-
-    Implementations of a point-of-sale (PoS) terminals RS485 network.
-    The development involved both terminal adapters and router firmware.
+    Developed and deployed an RS485 network for point-of-sale (PoS) terminals,
+    including the design and implementation of both terminal adapter and router firmware
+    to enable reliable multi-terminal communication.
 - year: 1989
   fields: [embedded]
   activities: >-
-    Teamed up ((autostrade)) and ((olivetti)) to carryout the first ((telepass))
-    drive-through automatic payment system.
-    The development involved both the firmware of the devices installed
-    in the car and the ones of the gate lanes in the toll station.
+    Collaborated with ((autostrade)) and ((olivetti)) to develop the pioneering ((telepass))
+    drive-through automatic toll payment system. Led firmware development for both in-vehicle
+    devices and toll gate lane controllers.
 - year: 1987
   fields: [training]
-  activities: Technical article writer for computer magazines.
+  activities: >-
+    Authored technical articles for leading computer magazines, providing in-depth
+    insights and practical guidance on emerging technologies and programming techniques.
