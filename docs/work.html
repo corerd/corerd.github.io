@@ -11,7 +11,26 @@ synopsis: Work Experience
   <div class="w3-container w3-card">
     <h5><i class="fa fa-calendar fa-fw w3-margin-right"></i>{{ item.period }}</h5>
     <h6><b>{{ item.job }} / {{ item.employer }}</b></h6>
-    <p>{{ item.activities }}</p>
+    <h7><b>{{ item.sector }}</b></h7>
+    <ul>
+      <li>Main Activities
+        </li>
+        <ul>
+          {% for activity in item.activities %}
+          <li>{{ activity }}</li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% if item.responsibilities and item.responsibilities.size > 0 %}
+        <li>Responsibilities
+          <ul>
+            {% for responsibility in item.responsibilities %}
+            <li>{{ responsibility }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endif %}
+    </ul>
   </div>
 {% endfor %}
 

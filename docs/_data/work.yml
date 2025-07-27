@@ -1,59 +1,114 @@
-- period: Oct 2013 - Current
-  job: Firmware & Software Engineer
-  employer: STMicroelectronics
-  activities: >-
-    Firmware design and implementation of power management multi phase
-    switching regulator SoC.<br>
-    Software design and implementation of cross platform verification
-    and validation applications for power management systems.
-- period: Mar 2011 - Sep 2013
-  job: Firmware Engineer
-  employer: MGTECH
-  activities: >-
-    Embedded firmware consultant in integrating an 8051 micro controller
-    with a power management SoC.
-- period: Aug 2010 - Feb 2011
-  job: Firmware & Software Engineer
-  employer: MR&D
-  activities: >-
-    Firmware design and development the for domotic equipment.<br>
-    Software design and development of Linux and Windows applications for the
-    supervision of building automation equipment.
-- period: Nov 2008 - Jul 2010
-  job: Firmware & Software Engineer
+- period: October 2013 - Present
+  sector: Semiconductor products and technologies
+  job: Firmware & Software Designer
+  employer: STMicroelectronics S.r.l.
+  location: Agrate Brianza (MI), Italy
+  activities:
+    - Designed and implemented firmware for power management multi-phase switching regulator SoCs.
+    - Developed cross-platform desktop applications for verification and validation of power management systems.
+    - Designed and implemented STM32 firmware for PMBus and AVS bridge USB dongle.
+    - Designed and implemented cross-platform GUI applications for customer validation.
+  responsibilities:
+    - Embedded 8051 microcontroller firmware in an isolated 48V resonant multi-phase direct power conversion architecture, targeting efficiency improvement in data centers.
+    - Provided catastrophic fault traceability and black box recording functions.
+    - Added monitor debugging capabilities to the 8051 microcontroller and defined a command line interface (CLI) through the UART.
+    - Designed and implemented ROM patching capability for 8051 firmware.
+    - Collaborated on integrating 8051 firmware and SoC digital peripherals in an FPGA model.
+    - Automated firmware validation using scripting languages interfacing with the FPGA model.
+    - Provided diagnostic firmware functions for SoC manufacturing process.
+    - Performed hands-on hardware and system bring-up.
+    - Teamed up with digital, analog, and product engineers involved in SoC development.
+- period: March 2011 - September 2013
+  sector: Semiconductor products and technologies
+  job: Firmware Consultant
+  employer: MGTECH S.r.l.
+  location: Bergamo (BG), Italy
+  activities:
+    - Provided embedded firmware consulting in integrating an 8051 microcontroller with a power management SoC.
+    - Developed test and inspection Windows / Linux software tools.
+    - Wrote code documentation using UML paradigm.
+  responsibilities:
+    - Teamed up with STMicroelectronics for developing the world's first digital multi-phase switching power supply regulator embedding an 8051 microcontroller.
+    - Designed 8051 firmware implementing power management and PMBus protocol.
+    - Designed and implemented a power management SoC firmware validation equipment based on an FPGA and a companion STM8 microcontroller.
+- period: August 2010 - February 2011
+  sector: Engineering consulting activities
+  job: Firmware & Software Designer
+  employer: MR&D S.p.A.
+  location: Gallarate (VA), Italy
+  activities:
+    - Designed and developed firmware for domotic equipment.
+    - Designed and developed Linux and Windows applications for the supervision of building automation equipment.
+  responsibilities:
+    - Integrated BTicino MyHome equipment and computer vision techniques to develop a video surveillance and rescue system for elderly people.
+    - Designed and implemented a Nurse Call System over BTicino SCS bus.
+- period: November 2008 - July 2010
+  job: Programmer Analyst
   employer: Freelance
-  activities: >-
-    Software design and implementation of desktop applications for Linux
-    and Windows, and mobile applications for Android and iOS.<br>
-    Firmware design and implementation for portable devices.<br>
-    Development of Android applications.<br>
-    Websites and blogging platforms development.<br>
-- period: May 1990 - Oct 2008
-  job: Firmware & Software Engineer
-  employer: Dionica Italia
-  activities: >-
-    Firmware design and implementation for Electronic Funds Transfer
-    (EFT) equipment.<br>
-    Software design and implementation of Linux and Windows applications for
-    verification, validation and remote control of Point of Sale (POS) terminals.
-- period: Feb 1989 - Apr 1990
+  activities:
+    - Designed and implemented Android, iOS, Linux, and Windows applications.
+    - Designed and implemented firmware for portable devices.
+    - Developed Android applications.
+    - Developed websites and blogging platforms.
+  responsibilities: [] # Empty list
+- period: May 1990 - October 2008
+  sector: Electronic Payment Systems
+  job: Firmware & Software Designer
+  employer: Dionica Italia S.r.l
+  location: Cernusco sul Naviglio (MI), Italy
+  activities:
+    - Designed and implemented firmware for Electronic Funds Transfer (EFT) equipment.
+    - Designed and implemented Linux and Windows applications for verification, validation, and remote control of Point of Sale (POS) terminals.
+  responsibilities:
+    - Embedded microcontroller firmware in EFT equipment.
+    - Designed and implemented a proprietary Operating System targeting POS terminals.
+    - Performed test and in-circuit debugging of the target platform.
+    - Embedded cryptographic algorithms.
+    - Provided test and inspection Windows applications for the POS manufacturing process.
+    - Designed and implemented a Software Development Kit (SDK) for POS terminal embedded applications.
+    - Deployed the POS SDK to the customer development team, providing technical training.
+    - Managed remote POS control over LAN / WAN network.
+    - Performed network management by means of Linux and Windows tools.
+    - Implemented a chip card driver complying with the EMVCo specification for payment acceptance devices.
+    - Achieved product type approvals beside international certification boards regarding both the basic marketing requirements (CE mark), and Payment Card Industry Data Security Standard (PCI DSS).
+    - Teamed up to evaluate and integrate new architectures and technologies to improve quality and performances of the end-product.
+- period: February 1989 - April 1990
+  sector: Electronic Payment Systems
   job: Firmware Developer
-  employer: Sixcom
-  activities: >-
-    Embed firmware in Electronic Funds Transfer (EFT) equipments.
-- period: Feb 1988 - Dec 1988
+  employer: Sixcom S.p.A. (Olivetti group)
+  location: Milano (MI), Italy
+  activities:
+    - Embedded firmware in Electronic Funds Transfer (EFT) equipment.
+  responsibilities:
+    - Carried out the firmware for the first "Autostrade per l'Italia" Telepass drive-through automatic payment system, consisting of devices installed in the car and in the gate lanes of the toll station.
+    - Performed test and in-circuit debugging of the target platform.
+- period: February - December 1988
+  sector: Human resources management
   job: Software Developer
-  employer: Ministero della Difesa Aeronautica
-  activities: >-
-    Relational database management systems development.
-- period: May 1987 - Dec 1987
-  job: Technical Writer
-  employer: Arcadia
-  activities: >-
-    Technical review for the “PC User” magazine.
-- period: Mar 1986 - Dec 1986
+  employer: Ministero della Difesa Aeronautica, Direzione Generale per il personale Aeronautica (PERSAEREO)
+  location: Roma (RM), Italy
+  activities:
+    - Developed software for relational database management systems.
+  responsibilities:
+    - Created data entry forms and statistic reports.
+- period: May - December 1987
+  sector: Publishing
+  job: Technical Content Creator
+  employer: Arcadia S.r.l.
+  location: Milano (MI), Italy
+  activities:
+    - Edited technical review for the "PC User" magazine.
+  responsibilities:
+    - Spread tips & tricks about popular Ms-Dos applications.
+    - Dealt in interfacing BIOS and DOS services by means of calls written in Basic language.
+- period: March - December 1986
+  sector: Digital telephone exchanges
   job: Internship
-  employer: Italtel
-  activities: >-
-    Optimization for 32 bits architectures of the intermediate language
-    generated by the CHILL compiler.
+  employer: Italtel S.p.A.
+  location: Settimo Milanese (MI), Italy
+  activities:
+    - Optimized for 32 bits architectures of the intermediate language generated by the CHILL compiler.
+  responsibilities:
+    - Analyzed the existing abstract language machine used by the CHILL compiler as an intermediate step in the generation of the object code for target 16 bits processors.
+    - Analyzed the 32 bits processors architecture.
+    - Defined new abstract instructions more suitable to improve the size and speed optimizations of the object code generated for 32 bits target processors.
