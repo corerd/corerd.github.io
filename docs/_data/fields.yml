@@ -5,8 +5,10 @@
   name: Embedded
   desc: Embedded systems firmware.
 - id: pwr
-  name: Power Management
-  desc: Firmware solutions for multi-phase switching regulator SoCs and advanced power management systems.
+  name: Power Management SoC
+  desc: >-
+    Firmware solutions for multi-phase switching regulators
+    and advanced power management System-on-Chips (SoCs).
 - id: ic
   name: Semiconductor Technologies
   desc: Semiconductor Technologies.
@@ -25,8 +27,10 @@
     Development of image processing and computer vision solutions for automated analysis,
     recognition, and interpretation of visual data.
 - id: domotics
-  name: Domotics
-  desc: Development and integration of home automation (domotics) systems for smart environments.
+  name: IoT
+  desc: >-
+    Development and integration of IoT-based automation platforms for home and commercial environments,
+    supporting smart device interoperability, centralized control, and adaptive system behavior.
 - id: pos
   name: PoS terminals
   desc: >-

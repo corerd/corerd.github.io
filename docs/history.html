@@ -42,31 +42,33 @@ synopsis: Case History
         </tr>  
     </thead>
   {% assign href_table = site.data.href_table %}
-  {% for item in site.data.history %}
-    <tr class="__all__{% for field_id in item.fields %} {{ field_id }}{% endfor %}">
-        <td>{{ item.year }}</td>
-        <td>
-            {% assign activity = item.activities %}
-            {% for href in href_table %}
-              {% capture hyperlink %}
-              <a href="{{ href.link }}">{{ href.name }}</a>
-              {% endcapture %} 
-              {% assign activity = activity | replace: href.id, hyperlink %}
-            {% endfor %}
-            {{ activity }}
-            <br>
+  {% for period in site.data.work %}
+    {% for item in period.activities %}
+      <tr class="__all__{% for field_id in item.fields %} {{ field_id }}{% endfor %}">
+          <td>{{ item.year }}</td>
+          <td>
+              {% assign activity = item.description %}
+              {% for href in href_table %}
+                {% capture hyperlink %}
+                <a href="{{ href.link }}">{{ href.name }}</a>
+                {% endcapture %} 
+                {% assign activity = activity | replace: href.id, hyperlink %}
+              {% endfor %}
+              {{ activity }}
+              <br>
 
-            <b>Application fields:</b>
-            {% for field_id in item.fields %}
-              {% assign id_list = fields | where: "id", field_id %}
-              {% if forloop.last %}
-                {{ id_list[0]["name"] }}
-              {% else %}
-                {{ id_list[0]["name"] }},
-              {% endif %}
-            {% endfor %}
-        </td>
-    </tr>
+              <b>Application fields:</b>
+              {% for field_id in item.fields %}
+                {% assign id_list = fields | where: "id", field_id %}
+                {% if forloop.last %}
+                  {{ id_list[0]["name"] }}
+                {% else %}
+                  {{ id_list[0]["name"] }},
+                {% endif %}
+              {% endfor %}
+          </td>
+      </tr>
+    {% endfor %}
   {% endfor %}
 </table>
 

@@ -4,10 +4,62 @@
   employer: STMicroelectronics S.r.l.
   location: Agrate Brianza (MI), Italy
   activities:
+    - year: 2024
+      description: Design and development of embedded firmware and cross-platform software for semiconductor products, focusing on authentication frameworks, power management, and system validation.
+      application: Embedded systems, desktop applications, SoC validation, power management solutions.
+      fields: [ic, crypt]
+      technologies:
+        - category: Languages
+          platforms: 8051/STM32 Assembly, C/C++, C#, Python, PowerShell, Unix Shell
+        - category: Processors
+          platforms: 8051, STM32
+        - category: Algorithms & Protocols
+          platforms: Cryptographic methods, PMBus, AVS, I2C, SPI, UART, USB
+        - category: GUI Framework
+          platforms: wxWidgets
+        - category: IDE & OS
+          platforms: Code::Blocks, CodeLite, Eclipse, Visual Studio; macOS, Linux, Windows
+        - category: Version Control
+          platforms: GIT, SVN
+        - category: Test Tools
+          platforms: FPGA, Logic Analyzer, Oscilloscope
+    - year: 2021
+      description: Phase-change memory (PCM) integration into a System-on-Chip (SoC).
+      fields: [ic, testing]
+  responsabilità:
+    - key: Embedded Firmware Development for Power SoCs.
+      achievement: >-
+        Designed and implemented firmware for multi-phase switching regulator SoCs
+        with isolated 48V resonant direct power conversion,
+        enhancing energy efficiency in data center environments.
+    - key: Fault Handling & Diagnostics.
+      achievement: >-
+        Developed robust fault traceability and black box recording mechanisms.
+    - key: Firmware Modularity & Upgrade Mechanisms.
+      achievement: >-
+        Created ROM patching functionality to allow post-production updates and feature enhancements.
+    - key: Digital Integration & Validation Automation.
+      achievement: >-
+        Collaborated with digital design teams to integrate firmware into FPGA models.
+        Automated firmware validation workflows using scripting languages for simulation and real-time testing.
+    - key: Embedded USB Dongle Development.
+      achievement: >-
+        Engineered STM32 firmware to enable USB bridge communication for PMBus and Adaptive Voltage Scaling (AVS) protocols.
+    - key: Customer-Focused GUI Tools.
+      achievement: >-
+        Designed cross-platform GUI applications for customers to validate and monitor power management devices,
+        ensuring usability across macOS, Linux, and Windows environments.
+    - key: Cross-Disciplinary Collaboration.
+      achievement: >-
+        Worked closely with analog, digital, and product engineering teams throughout SoC development lifecycle
+        to align firmware functionalities with system-level goals.
+  job_details:
+    - Design embedded authentication frameworks for host-device communication using cryptographic algorithms.
+    - Phase-change memory (PCM) integration into a System-on-Chip (SoC).
+    - Designed and implemented cross-platform GUI applications for customer validation.
     - Designed and implemented firmware for power management multi-phase switching regulator SoCs.
     - Developed cross-platform desktop applications for verification and validation of power management systems.
     - Designed and implemented STM32 firmware for PMBus and AVS bridge USB dongle.
-    - Designed and implemented cross-platform GUI applications for customer validation.
   responsibilities:
     - Embedded 8051 microcontroller firmware in an isolated 48V resonant multi-phase direct power conversion architecture, targeting efficiency improvement in data centers.
     - Provided catastrophic fault traceability and black box recording functions.
@@ -18,30 +70,133 @@
     - Provided diagnostic firmware functions for SoC manufacturing process.
     - Performed hands-on hardware and system bring-up.
     - Teamed up with digital, analog, and product engineers involved in SoC development.
+
 - period: March 2011 - September 2013
   sector: Semiconductor products and technologies
   job: Firmware Consultant
   employer: MGTECH S.r.l.
   location: Bergamo (BG), Italy
   activities:
-    - Provided embedded firmware consulting in integrating an 8051 microcontroller with a power management SoC.
-    - Developed test and inspection Windows / Linux software tools.
-    - Wrote code documentation using UML paradigm.
+    - year: 2013
+      fields: [embedded, pwr]
+      description: >-
+        Design and development of embedded 8051 firmware for advanced
+        power supply System-on-Chips (SoCs) with PMBus functionalities.
+      technologies:
+        - category: Languages
+          platforms: 8051 Assembly, C/C++
+        - category: Processors
+          platforms: 8051
+        - category: Algorithms & Protocols
+          platforms: PMBus, I2C, UART
+        - category: IDE & OS
+          platforms: Code::Blocks, Windows
+        - category: Version Control
+          platforms: GIT, SVN
+    - year: 2012
+      fields: [testing, pwr]
+      description:
+        - Implemented an 8051 SoC architecture equipped with a UART-interfaced monitor debugger,
+          enabling runtime monitoring and system-level debugging.
+        - Engineered advanced validation platforms for 8051-embedded power management SoCs,
+          supporting signal emulation, fault injection, and automated performance benchmarking.
+      technologies:
+        - category: Languages
+          platforms: C/C++, C#, Python
+        - category: Processors
+          platforms: STM8
+        - category: Algorithms & Protocols
+          platforms: PMBus, I2C, UART
+        - category: GUI Framework
+          platforms: Windows Forms
+        - category: IDE & OS
+          platforms: Eclipse, Visual Studio; Windows
+        - category: Version Control
+          platforms: GIT, SVN
+        - category: Test Tools
+          platforms: FPGA, Logic Analyzer, Oscilloscope
   responsibilities:
-    - Teamed up with STMicroelectronics for developing the world's first digital multi-phase switching power supply regulator embedding an 8051 microcontroller.
-    - Designed 8051 firmware implementing power management and PMBus protocol.
-    - Designed and implemented a power management SoC firmware validation equipment based on an FPGA and a companion STM8 microcontroller.
+    - key: Embedded Firmware Design.
+      achievement: >-
+        Collaborated with STMicroelectronics to architect and co-develop the industry's
+        first digital multi-phase switching power supply System-on-Chip (SoC) integrating
+        an embedded 8051 microcontroller for advanced power management and PMBus protocol support.    - key: Validation environments.
+    - key: Test & Inspection.
+      achievement: >-
+        Developed a UART-based monitor debugger for the 8051 embedded in the SoC,
+        providing host-driven memory inspection, register viewing, and execution control.
+    - key: Validation environments.
+      achievement: >-
+        Designed a modular validation platform combining FPGA logic and STM8 microcontroller
+        to interface and simulate complex signal environments, enabling comprehensive testing
+        and validation of power management System-on-Chips (SoCs).
+    - key: Firmware Documentation.
+      achievement: >-
+        Authored comprehensive documentation using UML methodologies.
+    - key: Customer Orientation.
+      achievement: >-
+        Demonstrated a deep understanding of STMicroelectronics objectives
+        and technical concerns, proactively identifying potential challenges,
+        and delivering tailored solutions aligned with their roadmap.
+
 - period: August 2010 - February 2011
   sector: Engineering consulting activities
   job: Firmware & Software Designer
   employer: MR&D S.p.A.
   location: Gallarate (VA), Italy
   activities:
+    - year: 2011
+      fields: [embedded, domotics]
+      description:
+        - Engineered a Nurse Call System integrating BTicino SCS bus technology
+          to support responsive communication workflows in healthcare environments.
+      technologies:
+        - category: Languages
+          platforms: Microchip Assembly, C/C++
+        - category: Processors
+          platforms: Microchip
+        - category: Algorithms & Protocols
+          platforms: BTicino SCS
+        - category: IDE & OS
+          platforms: Mplab, Windows
+        - category: Version Control
+          platforms: GIT
+    - year: 2010
+      fields: [cv, desktop, domotics]
+      description:
+        - Collaborated with ((cnr)) to co-develop a computer vision-driven emergency detection system
+          integrated with residential automation technologies, enabling intelligent surveillance
+          and rapid-response mechanisms for senior safety and assisted living environments.
+      technologies:
+        - category: Languages
+          platforms: Python
+        - category: Algorithms & Protocols
+          platforms: BTicino SCS
+        - category: GUI Framework
+          platforms: Qt
+        - category: IDE & OS
+          platforms: NetBeans, Linux, Windows
+        - category: Version Control
+          platforms: GIT
+  responsibilities:
+    - key: Embedded Firmware Design.
+      achievement: >-
+        Engineered an audio communication feature within a Nurse Call System,
+        utilizing BTicino's SCS bus technology for reliable signal transmission and integration.
+    - key: BTicino IoT Solutions Integration.
+      achievement: >-
+        Created cross-platform Linux and Windows desktop applications
+        integrating BTicino MyHome building automation equipments and computer vision technologies
+        into a unified smart video surveillance and emergency response solution.
+    - key: Collaborative Mindset.
+      achievement: >-
+        Collaborated with CNR to develop a human fall detection system using computer vision techniques,
+        integrating OpenCV for image processing and deep learning models for accurate event classification.
     - Designed and developed firmware for domotic equipment.
     - Designed and developed Linux and Windows applications for the supervision of building automation equipment.
-  responsibilities:
     - Integrated BTicino MyHome equipment and computer vision techniques to develop a video surveillance and rescue system for elderly people.
     - Designed and implemented a Nurse Call System over BTicino SCS bus.
+
 - period: November 2008 - July 2010
   job: Programmer Analyst
   employer: Freelance
