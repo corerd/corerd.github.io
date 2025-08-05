@@ -171,7 +171,7 @@
         - category: Languages
           platforms: Python
         - category: Algorithms & Protocols
-          platforms: BTicino SCS
+          platforms: OpenCV, BTicino SCS
         - category: GUI Framework
           platforms: Qt
         - category: IDE & OS
@@ -190,22 +190,43 @@
         into a unified smart video surveillance and emergency response solution.
     - key: Collaborative Mindset.
       achievement: >-
-        Collaborated with CNR to develop a human fall detection system using computer vision techniques,
+        Collaborated with ((cnr)) to develop a human fall detection system using computer vision techniques,
         integrating OpenCV for image processing and deep learning models for accurate event classification.
-    - Designed and developed firmware for domotic equipment.
-    - Designed and developed Linux and Windows applications for the supervision of building automation equipment.
-    - Integrated BTicino MyHome equipment and computer vision techniques to develop a video surveillance and rescue system for elderly people.
-    - Designed and implemented a Nurse Call System over BTicino SCS bus.
 
 - period: November 2008 - July 2010
-  job: Programmer Analyst
+  job: Software Engineer (Web)
   employer: Freelance
   activities:
-    - Designed and implemented Android, iOS, Linux, and Windows applications.
-    - Designed and implemented firmware for portable devices.
-    - Developed Android applications.
-    - Developed websites and blogging platforms.
-  responsibilities: [] # Empty list
+    - year: 2009
+      fields: [wcms]
+      description:
+        - Web development tailored for modern business websites
+          using WordPress as CMS platform for scalable content management.
+      technologies:
+        - category: Languages
+          platforms: HTML+CSS, JavaScript*jQuery, PHP, SQL
+        - category: CMS
+          platforms: WordPress
+        - category: DBMS
+          platforms: MySQL
+        - category: Algorithms & Protocols
+          platforms: AJAX, RESTful API
+        - category: IDE & OS
+          platforms: TextMate, Mac OS X
+  responsibilities:
+    - key: Frontend Engineering.
+      achievement: >-
+        Designed intuitive, responsive front-end interfaces using HTML, CSS, JavaScript
+        and WordPress themes customization.
+    - key: Backend Developer.
+      achievement: >-
+        Managed scalable CMS architecture through PHP, MySQL, and RESTful API
+        to support dynamic content delivery and sophisticated user interactions.
+    - key: Collaborative Mindset.
+      achievement: >-
+        Collaborated with cross-functional teams including UX designers, content strategists
+        and stakeholders to deliver customized business websites.
+
 - period: May 1990 - October 2008
   sector: Electronic Payment Systems
   job: Firmware & Software Designer
