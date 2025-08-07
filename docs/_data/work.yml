@@ -233,6 +233,126 @@
   employer: Dionica Italia S.r.l
   location: Cernusco sul Naviglio (MI), Italy
   activities:
+    - year: 2008
+      fields: [desktop, pos, testing]
+      description:
+        - Designed and implemented a Windows application for automated unit testing of PIN pads,
+          ensuring compliance with ((pci)) security standards through dynamic command flows.
+        - Integrated SQL database to manage test command sequences, enabling real-time updates
+          and customization via a Windows GUI for enhanced usability and flexibility.
+      technologies:
+        - category: Languages
+          platforms: C#, LINQ
+        - category: DBMS
+          platforms: ADO.NET
+        - category: GUI Framework
+          platforms: Windows Forms
+        - category: IDE & OS
+          platforms: Visual Studio, Windows
+    - year: 2007
+      fields: [embedded, pos, crypt]
+      description:
+        - Designed a secure PIN pad that successfully obtained ((pci)) certification,
+          ensuring compliance with industry standards for encrypted PIN transactions
+          and secure payment processing.
+      technologies:
+        - category: Languages
+          platforms: 8051 Assembly, C
+        - category: Processors
+          platforms: Maxim Integrated DS5240 Secure Microcontroller
+        - category: Algorithms & Protocols
+          platforms: DES, Triple DES and public-key cryptography (PKI)
+        - category: IDE & OS
+          platforms: Keil PK51, proprietary PoS terminal SDK
+    - year: 2006
+      fields: [embedded, pos]
+      description:
+        - Designed a modular Point-of-Sale (POS) system architecture featuring multiple PIC microcontrollers
+          communicating via SPI with a centralized master controller.
+        - Developed firmware for Freescale HCS08, each dedicated to managing peripheral devices
+          such as PIN pads, card reader (magnetic stripe, EMV chip), printers, GSM modules
+          and power control units.
+        - Engineered master firmware for a Freescale Coldfire 5208, running a customized uClinux OS
+          to coordinate device communication and system logic.
+        - Enabled scalable hardware expansion through modular device boards, allowing tailored configurations
+          (e.g., GSM and power management for handset devices, omitted in desktop variants).
+      technologies:
+        - category: Languages
+          platforms: M68K and HCS08 Assembly, C
+        - category: Processors
+          platforms: Freescale ColdFire 5208 and HCS08
+        - category: Algorithms & Protocols
+          platforms: GSM/GPRS/UMTS, SPI
+        - category: IDE & OS
+          platforms: Eclipse, uClinux
+        - category: Test Tools
+          platforms: Lauterback in-circuit emulator
+    - year: 2005
+      fields: [embedded, pos, training]
+      description:
+        - Delivered hands-on training and integration support to the client's development team in Fortaleza, Brazil,
+          facilitating the development of robust PoS applications on our hardware and proprietary SDK.
+      technologies:
+        - category: IDE & OS
+          platforms: Proprietary PoS terminal SDK
+    - year: 2003
+      fields: [embedded, pos]
+      description:
+        - Migrated legacy 8/16-bit SDK for PoS embedded systems to a modern 32-bit platform,
+          optimizing hardware utilization and enabling advanced feature support.
+      technologies:
+        - category: Languages
+          platforms: 
+        - category: Processors
+          platforms: 
+        - category: Algorithms & Protocols
+          platforms: 
+        - category: IDE & OS
+          platforms: 
+    - year: 2001
+      fields: [embedded, pos]
+      description:
+        - Developed and integrated a GSM/GPRS/UMTS communication driver into the PoS SDK,
+          providing robust wireless networking capabilities.
+      technologies:
+        - category: Languages
+          platforms: 
+        - category: Processors
+          platforms: 
+        - category: Algorithms & Protocols
+          platforms: 
+        - category: IDE & OS
+          platforms: 
+
+    - year: 2000
+      fields: [embedded, pos, training]
+      description:
+        - Established and led a software engineering team in Madrid, Spain,
+          driving the development and delivery of electronic payment solutions.
+      technologies:
+        - category: Languages
+          platforms: 8051/251 Assembly, C
+        - category: Processors
+          platforms: 8051/251
+        - category: IDE & OS
+          platforms: Keil PK51, proprietary PoS terminal SDK
+
+    - year: 1997
+      fields: [embedded, pos, training]
+      description:
+        - Led and built a software engineering team in Malta, successfully manufacturing
+          and delivering market-ready electronic payment solutions.
+        - Delivered specialized training and technical guidance to the client's software engineering team
+          in Bratislava, Slovak Republic, enabling them to build reliable PoS applications
+          using our proprietary hardware and SDK.
+      technologies:
+        - category: Languages
+          platforms: 8051 Assembly, C
+        - category: Processors
+          platforms: 8051
+        - category: IDE & OS
+          platforms: Keil PK51, proprietary PoS terminal SDK
+
     - Designed and implemented firmware for Electronic Funds Transfer (EFT) equipment.
     - Designed and implemented Linux and Windows applications for verification, validation, and remote control of Point of Sale (POS) terminals.
   responsibilities:
@@ -248,6 +368,7 @@
     - Implemented a chip card driver complying with the EMVCo specification for payment acceptance devices.
     - Achieved product type approvals beside international certification boards regarding both the basic marketing requirements (CE mark), and Payment Card Industry Data Security Standard (PCI DSS).
     - Teamed up to evaluate and integrate new architectures and technologies to improve quality and performances of the end-product.
+
 - period: February 1989 - April 1990
   sector: Electronic Payment Systems
   job: Firmware Developer
