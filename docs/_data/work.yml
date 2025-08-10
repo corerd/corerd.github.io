@@ -261,7 +261,7 @@
         - category: Processors
           platforms: Maxim Integrated DS5240 Secure Microcontroller
         - category: Algorithms & Protocols
-          platforms: DES, Triple DES and public-key cryptography (PKI)
+          platforms: AES, DES, Triple DES and public-key cryptography (PKI), ISO/IEC 7816
         - category: IDE & OS
           platforms: Keil PK51, proprietary PoS terminal SDK
     - year: 2006
@@ -295,35 +295,52 @@
       technologies:
         - category: IDE & OS
           platforms: Proprietary PoS terminal SDK
+    - year: 2004
+      fields: [desktop, pos]
+      description:
+        - Migrated a legacy software upload utility from MS-DOS to a Windows-based application
+          using MFC, improving usability, update efficiency, and long-term support
+          for remote PoS terminal deployments.
+      technologies:
+        - category: Languages
+          platforms: C++
+        - category: Algorithms & Protocols
+          platforms: Custom communication layer over Public Switched Telephone Network (PSTN)
+        - category: GUI Framework
+          platforms: Microsoft Foundation Class (MFC)
+        - category: IDE & OS
+          platforms: Visual Studio, Windows
     - year: 2003
       fields: [embedded, pos]
       description:
-        - Migrated legacy 8/16-bit SDK for PoS embedded systems to a modern 32-bit platform,
-          optimizing hardware utilization and enabling advanced feature support.
+        - Migrated the proprietary 8/16-bit SDK for PoS embedded systems to a 32-bit Freescale ColdFire 5208 platform,
+          improving system performance, resource utilization, and advanced features support
+          for next-generation PoS terminals.
       technologies:
         - category: Languages
-          platforms: 
+          platforms: M68K Assembly, C
         - category: Processors
-          platforms: 
-        - category: Algorithms & Protocols
-          platforms: 
+          platforms: Freescale ColdFire 5208
         - category: IDE & OS
-          platforms: 
+          platforms: CodeWarrior, uC/OS-II, proprietary PoS terminal SDK
+        - category: Test Tools
+          platforms: Lauterback in-circuit emulator
     - year: 2001
       fields: [embedded, pos]
       description:
-        - Developed and integrated a GSM/GPRS/UMTS communication driver into the PoS SDK,
-          providing robust wireless networking capabilities.
+        - Engineered and embedded a multi-standard GSM/GPRS/UMTS communication driver within the PoS SDK,
+          enabling reliable and secure wireless connectivity for mobile transaction processing.
       technologies:
         - category: Languages
-          platforms: 
+          platforms: 80251 Assembly, C
         - category: Processors
-          platforms: 
+          platforms: 80251
         - category: Algorithms & Protocols
-          platforms: 
+          platforms: GSM/GPRS/UMTS
         - category: IDE & OS
-          platforms: 
-
+          platforms: Keil PK51, proprietary PoS terminal SDK
+        - category: Test Tools
+          platforms: Hitex in-circuit emulator
     - year: 2000
       fields: [embedded, pos, training]
       description:
@@ -336,7 +353,41 @@
           platforms: 8051/251
         - category: IDE & OS
           platforms: Keil PK51, proprietary PoS terminal SDK
-
+    - year: 1999
+      fields: [embedded, pos, crypt]
+      description:
+        - Provided technical leadership to Slovenská Sporiteľňa Bank (Bratislava, Slovak Republic) in designing
+          and implementing an EMV-compliant PoS application, leveraging our proprietary hardware and SDK
+          to enable the first international money transfer via EMV smart card technology,
+          as documented in ((scn)) (page 16).
+        - Ported the proprietary 8-bit SDK for PoS terminal embedded systems to a 16-bit 80251 platform,
+          enabling improved computational efficiency and expanded feature support.
+      technologies:
+        - category: Languages
+          platforms: 8051/251 Assembly, C
+        - category: Processors
+          platforms: 8051/251
+        - category: IDE & OS
+          platforms: Keil PK51, proprietary PoS terminal SDK
+        - category: Test Tools
+          platforms: Hitex in-circuit emulator
+    - year: 1998
+      fields: [embedded, pos]
+      description:
+        - Engineered an EMV-compliant smart card driver for PoS acceptance devices, seamlessly integrated
+          into the SDK for embedded terminal applications.
+        - Achieved full validation via EMVCo Type Approval testing.
+      technologies:
+        - category: Languages
+          platforms: 8051 Assembly, C
+        - category: Processors
+          platforms: 8051
+        - category: Algorithms & Protocols
+          platforms: ISO/IEC 7816
+        - category: IDE & OS
+          platforms: Keil PK51, proprietary PoS terminal SDK
+        - category: Test Tools
+          platforms: Integri INQ Level 1 Platform
     - year: 1997
       fields: [embedded, pos, training]
       description:
@@ -352,6 +403,111 @@
           platforms: 8051
         - category: IDE & OS
           platforms: Keil PK51, proprietary PoS terminal SDK
+    - year: 1996
+      fields: [embedded, pos]
+      description:
+        - Engineered a PoS terminal network architecture utilizing RS-485 communication with an MS-DOS server,
+          ensuring centralized data transmission control across distributed devices.
+      technologies:
+        - category: Languages
+          platforms: x86 and 8051 Assembly, C
+        - category: Processors
+          platforms: 8051, Intel Pentium
+        - category: Algorithms & Protocols
+          platforms: X25, custom RS-485 communication layer
+        - category: IDE & OS
+          platforms: Keil PK51, MS C Compiler 6.00, MS-DOS, proprietary PoS terminal SDK
+        - category: Test Tools
+          platforms: Nohau
+    - year: 1995
+      fields: [embedded, desktop, pos]
+      description:
+        - Developed and integrated the remote system interface on the PoS terminal platform,
+          allowing centralized deployment of software updates, configuration profiles,
+          and remote diagnostics for in-field devices.
+        - Engineered a PSTN-optimized communication protocol to support centralized
+          software distribution, profile management, and remote troubleshooting
+          across deployed terminal networks.
+        - Built an MS-DOS-based utility for uploading software to remote PoS terminals,
+          streamlining update processes and supporting legacy infrastructure.
+      technologies:
+        - category: Languages
+          platforms: 8051 Assembly, C
+        - category: Processors
+          platforms: 8051
+        - category: Algorithms & Protocols
+          platforms: Custom communication layer over Public Switched Telephone Network (PSTN)
+        - category: IDE & OS
+          platforms: Keil PK51, MS C Compiler 6.00, MS-DOS, proprietary PoS terminal SDK
+        - category: Test Tools
+          platforms: Nohau
+    - year: 1994
+      fields: [embedded, pos, crypt, testing]
+      description:
+        - Implemented DES and RSA cryptographic algorithms along with secure communication protocols
+          in the PoS terminal SDK, optimizing for 8-bit 8051 microcontrollers to strengthen data protection
+          in embedded payment environments.
+        - Designed and implemented software tools for factory testing of PoS terminals,
+          supporting automated diagnostics, hardware verification, and quality assurance
+          throughout the production lifecycle.
+      technologies:
+        - category: Languages
+          platforms: 8051 Assembly, C
+        - category: Processors
+          platforms: 8051
+        - category: Algorithms & Protocols
+          platforms: DES, Triple DES and public-key cryptography (PKI)
+        - category: IDE & OS
+          platforms: Keil PK51, proprietary PoS terminal SDK
+    - year: 1993
+      fields: [embedded, pos, crypt]
+      description:
+        - Engineered a proprietary real-time embedded OS for 8-bit 8051 microcontrollers,
+          integrating low-level device drivers and EFT protocols over PSTN to
+          support secure transaction processing in payment terminals.
+        - Developed a comprehensive SDK for PoS terminals, consolidating a custom real-time OS
+          and hardware abstraction layers. Optimized for 8-bit microcontrollers,
+          the SDK enabled rapid deployment of embedded payment applications with reliable EFT over PSTN.
+      technologies:
+        - category: Languages
+          platforms: 8051 Assembly, C
+        - category: Processors
+          platforms: 8051
+        - category: Algorithms & Protocols
+          platforms: EFT over PSTN
+        - category: IDE & OS
+          platforms: Keil PK51, proprietary PoS terminal SDK
+        - category: Test Tools
+          platforms: Nohau
+    - year: 1991
+      fields: [embedded, pos]
+      description:
+        - Developed a custom BIOS for a 386SX-based Hardware Security Module (HSM),
+          providing secure boot and hardware initialization, while enabling MS-DOS applications
+          to interface with embedded cryptographic operations and perform secure key lifecycle management.
+      technologies:
+        - category: Languages
+          platforms: x86 Assembly, C
+        - category: Processors
+          platforms: Intel 386SX
+        - category: IDE & OS
+          platforms: MS-DOS
+    - year: 1990
+      fields: [embedded, pos]
+      description:
+        - Designed, developed, and deployed an RS485-based network infrastructure for Point-of-Sale (PoS)
+          terminals, including custom firmware for both terminal adapters and network routers.
+          The solution featured an onboard 16-bit processor running an embedded PoS terminal server application,
+          enabling robust, low-latency communication across multiple terminals and ensuring reliable
+          data exchange in distributed environments.
+      technologies:
+        - category: Languages
+          platforms: HPC16400 Assembly, C
+        - category: Processors
+          platforms: National HPC16400
+        - category: Algorithms & Protocols
+          platforms: HDLC over RS485 bus
+
 
     - Designed and implemented firmware for Electronic Funds Transfer (EFT) equipment.
     - Designed and implemented Linux and Windows applications for verification, validation, and remote control of Point of Sale (POS) terminals.
