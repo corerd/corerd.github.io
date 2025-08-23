@@ -4,33 +4,45 @@
   employer: STMicroelectronics S.r.l.
   location: Agrate Brianza (MI), Italy
   activities:
+    - year: 2025
+      fields: [testing, ic, crypt]
+      description:
+        - Developed a host API for secure communication with PMBus-compliant power supply SoCs,
+          supporting authentication, configuration, firmware updates, and alert monitoring
+          in accordance with the PMBus Secure Device Application Profile.
+      technologies:
+        - category: Languages
+          platforms: Python, C/C++
+        - category: Algorithms & Protocols
+          platforms: SHS, SHA-3, HMAC, KMAC, DSA, RSA, ECDSA, PMBus
+        - category: IDE & OS
+          platforms: Visual Studio Code, Windows
     - year: 2024
-      application: Embedded systems, desktop applications, SoC validation, power management solutions.
       fields: [embedded, ic, crypt]
       description:
-        - Implemented software features aligned with the PMBus Secure Device Application Profile,
-          focusing on secure command handling, memory architecture, and hardware-triggered security actions.
+        - Architected and implemented secure embedded logic and firmware for power management SoCs
+          in compliance with the PMBus Secure Device Application Profile.
         - Integrated cryptographic algorithms to enable secure authentication key management
           and enforce access control policies.
-        - Developed embedded firmware routines to handle security action requests initiated via PMBus commands,
-          including lockout, secure erase, firmware update, and alert generation.
-        - Collaborated with hardware teamsto ensure seamless coordination between protocol-level security mechanisms
+        - Developed structured memory maps and command-handling firmware routines to process security action
+          requests initiated via PMBus commands, enabling features such as device lockout, secure erase,
+          authenticated firmware updates, and alert generation.
+        - Designed and implemented a true random number generator (TRNG) for cryptographic key derivation,
+          ensuring high entropy and compliance with security standards
+          (NIST SP 800-90 recommendations series).
+        - Collaborated with hardware teams to ensure seamless coordination between protocol-level security mechanisms
           and embedded hardware safeguards.
       technologies:
         - category: Languages
-          platforms: 8051/STM32 Assembly, C/C++, C#, Python, PowerShell, Unix Shell
+          platforms: Thumb Assembly for ARMv6-M, C/C++
         - category: Processors
-          platforms: 8051, STM32
+          platforms: ARM Cortex-M0+
         - category: Algorithms & Protocols
-          platforms: Cryptographic methods, PMBus, AVS, I2C, SPI, UART, USB
-        - category: GUI Framework
-          platforms: wxWidgets
+          platforms: SHS, SHA-3, HMAC, KMAC, DSA, RSA, ECDSA, PMBus
         - category: IDE & OS
-          platforms: Code::Blocks, CodeLite, Eclipse, Visual Studio; macOS, Linux, Windows
-        - category: Version Control
-          platforms: GIT, SVN
+          platforms: uVision, Unix, Windows
         - category: Test Tools
-          platforms: FPGA, Logic Analyzer, Oscilloscope
+          platforms: Xcelium, SimVision, Verisium
     - year: 2023
       fields: [embedded, ic, testing]
       description:
@@ -45,7 +57,7 @@
           ensuring reliable PCM programming during bring-up and validation phases.
       technologies:
         - category: Languages
-          platforms: ARM Cortex-M0+ Assembly, C/C++
+          platforms: Thumb Assembly for ARMv6-M, C/C++
         - category: Processors
           platforms: ARM Cortex-M0+
         - category: Algorithms & Protocols
@@ -57,22 +69,20 @@
     - year: 2022
       fields: [embedded, ic, testing]
       description:
-        - Authored SystemVerilog test environments to validate Cortex-M0+ embedded power management SoCs,
-          incorporating functional coverage, fault modeling, and stimulus generation for signal emulation
-          and performance analysis. Supported automated regression and corner-case testing to ensure
-          design robustness and compliance.
+        - Developed and deployed SystemVerilog testbenches for ARM Cortex power management SoCs,
+          enabling comprehensive validation of system behavior under normal and fault conditions.
         - Validated PMBus communication protocols between embedded power management SoCs and a PC host,
           leveraging Python scripting for automated command sequencing, data integrity checks,
           and protocol compliance verification.
       technologies:
         - category: Languages
-          platforms: SystemVerilog, Python
+          platforms: SystemVerilog, Python, Unix Shell
         - category: Algorithms & Protocols
           platforms: PMBus
         - category: IDE & OS
           platforms: Visual Studio Code, Unix, Windows
         - category: Test Tools
-          platforms: Xcelium, SimVision, Indago
+          platforms: Xcelium, SimVision, Indago, Logic Analyzer, Oscilloscope
     - year: 2021
       fields: [embedded, ic]
       description:
@@ -81,15 +91,52 @@
           power management systems.
       technologies:
         - category: Languages
-          platforms: ARM Cortex-M0+ Assembly, C/C++
+          platforms: Thumb Assembly for ARMv6-M, C/C++
         - category: Processors
           platforms: ARM Cortex-M0+
         - category: IDE & OS
           platforms: uVision, Visual Studio Code, Unix, Windows
         - category: Test Tools
-          platforms: Xcelium, SimVision, Indago
+          platforms: FPGA, Xcelium, SimVision, Indago
+    - year: 2017
+      fields: [desktop, pwr, testing]
+      description:
+        - Developed cross-platform graphical interfaces to support validation workflows
+          for multi-phase switching power regulator SoCs, integrating test automation,
+          telemetry monitoring, and configuration management to streamline system-level evaluation.
+      technologies:
+        - category: Languages
+          platforms: C/C++
+        - category: GUI Framework
+          platforms: wxWidgets
+        - category: Algorithms & Protocols
+          platforms: AVS, I2C, PMBus, SPI
+        - category: IDE & OS
+          platforms: CodeLite, Linux, macOS, Windows
+    - year: 2015
+      fields: [embedded, pwr, ic]
+      description:
+        - Collaborated with ((Google)) to architect an advanced isolated 48V resonant multi-phase
+          direct power conversion system, delivering significant efficiency gains for next-generation
+          data center infrastructures.
+      technologies:
+        - category: Languages
+          platforms: 8051 Assembly, C/C++
+        - category: Processors
+          platforms: 8051
+        - category: Algorithms & Protocols
+          platforms: I2C, PMBus, UART
+        - category: IDE & OS
+          platforms: Code::Blocks, Windows
 
+  application: >-
+    Embedded systems, desktop applications, SoC validation, power management solutions,
+    Computer Security, Subcategory: Cryptography
   responsabilità:
+    - key: SystemVerilog testbenches Design
+      achievement: >-
+        Developed functional coverage models, fault injection, and stimulus generators for signal emulation
+        and performance analysis of digital IP and SoC components.
     - key: Embedded Secure Architectures
       achievement: >-
         Engineered embedded firmware for power management SoCs, enabling advanced security operations
@@ -155,7 +202,7 @@
         - category: Processors
           platforms: 8051
         - category: Algorithms & Protocols
-          platforms: PMBus, I2C, UART
+          platforms: I2C, PMBus, UART
         - category: IDE & OS
           platforms: Code::Blocks, Windows
         - category: Version Control
@@ -173,7 +220,7 @@
         - category: Processors
           platforms: STM8
         - category: Algorithms & Protocols
-          platforms: PMBus, I2C, UART
+          platforms: I2C, PMBus, UART
         - category: GUI Framework
           platforms: Windows Forms
         - category: IDE & OS
@@ -238,7 +285,7 @@
         - category: Languages
           platforms: Python
         - category: Algorithms & Protocols
-          platforms: OpenCV, BTicino SCS
+          platforms: BTicino SCS, OpenCV
         - category: GUI Framework
           platforms: Qt
         - category: IDE & OS
